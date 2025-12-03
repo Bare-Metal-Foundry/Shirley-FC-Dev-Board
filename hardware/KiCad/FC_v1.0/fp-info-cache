@@ -1,4 +1,4 @@
-26727734359154966
+26741851941612454
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61383,6 +61383,20 @@ BMP390
 10
 10
 FC-FootprintLib
+CONN_SM04B-GHS-TB_JST
+
+SM04B-GHS-TB 
+0
+6
+6
+FC-FootprintLib
+CONN_SM06B-GHS-TB_JST
+
+SM06B-GHS-TB 
+0
+8
+8
+FC-FootprintLib
 ICM-42688-P
 
 ICM-42688-P 
@@ -61404,12 +61418,40 @@ MMC5983MA
 16
 16
 FC-FootprintLib
+SMD-B_19-337C_EVE
+
+19-337C/RSBHGHC-A88/4T 
+0
+6
+6
+FC-FootprintLib
+STM32H743ZIT6
+
+STM32H743ZIT6 
+0
+144
+144
+FC-FootprintLib
+SW_PCM12SMTR
+
+
+0
+7
+7
+FC-FootprintLib
 TPD4E05U06DQAR
 
 TPD4E05U06DQAR 
 0
 10
 10
+FC-FootprintLib
+TPS7A2133PQWDRBRQ1
+
+
+0
+13
+13
 FC-FootprintLib
 TPS2113A
 
@@ -61424,6 +61466,20 @@ TPS62130RGTR
 0
 21
 18
+FC-FootprintLib
+TSX-3225_16MHz
+
+
+0
+4
+4
+FC-FootprintLib
+TVS_SOD2_DYF_TEX
+
+TSD05DYFR 
+0
+2
+2
 FC-FootprintLib
 USB4105_GCT
 
