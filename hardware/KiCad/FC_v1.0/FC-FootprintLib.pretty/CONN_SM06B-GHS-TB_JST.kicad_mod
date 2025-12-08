@@ -277,4 +277,15 @@
 		(uuid "6d9e4b30-954a-4307-bb4a-128cecc3ada3")
 	)
 	(embedded_fonts no)
+	(model "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/SM06B-GHS-TB/SM06B-GHS-TB.STEP"
+		(offset
+			(xyz 0 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

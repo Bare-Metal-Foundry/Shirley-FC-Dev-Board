@@ -580,22 +580,7 @@
 		(roundrect_rratio 0.16)
 		(uuid "3236e410-ca46-45b6-91fe-487c4efa5551")
 	)
-	(pad "9" smd roundrect
-		(at 0 0)
-		(size 1.65 2.4)
-		(layers "F.Cu")
-		(roundrect_rratio 0.03)
-		(uuid "3bee871b-cd53-4856-8b15-009bbf462779")
-	)
-	(pad "10" thru_hole circle
-		(at 0 -0.95)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(uuid "5a204fec-8a13-41eb-bee3-ca2d5f4967bd")
-	)
-	(pad "11" thru_hole circle
+	(pad "9" thru_hole circle
 		(at -0.575 0)
 		(size 0.3 0.3)
 		(drill 0.2)
@@ -603,15 +588,22 @@
 		(remove_unused_layers no)
 		(uuid "a9d156d1-1757-4456-ad5a-33747fc03180")
 	)
-	(pad "12" thru_hole circle
-		(at 0.575 0)
+	(pad "9" thru_hole circle
+		(at 0 -0.95)
 		(size 0.3 0.3)
 		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "ef3834b7-47fa-4385-b884-e88fc70815cd")
+		(uuid "5a204fec-8a13-41eb-bee3-ca2d5f4967bd")
 	)
-	(pad "13" thru_hole circle
+	(pad "9" smd roundrect
+		(at 0 0)
+		(size 1.65 2.4)
+		(layers "F.Cu")
+		(roundrect_rratio 0.03)
+		(uuid "3bee871b-cd53-4856-8b15-009bbf462779")
+	)
+	(pad "9" thru_hole circle
 		(at 0 0.95)
 		(size 0.3 0.3)
 		(drill 0.2)
@@ -619,5 +611,24 @@
 		(remove_unused_layers no)
 		(uuid "6441f9c7-d3f2-4941-a7a3-664f1b9c495f")
 	)
+	(pad "9" thru_hole circle
+		(at 0.575 0)
+		(size 0.3 0.3)
+		(drill 0.2)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "ef3834b7-47fa-4385-b884-e88fc70815cd")
+	)
 	(embedded_fonts no)
+	(model "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/TPS7A2133/TPS7A2133PQWDRBRQ1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

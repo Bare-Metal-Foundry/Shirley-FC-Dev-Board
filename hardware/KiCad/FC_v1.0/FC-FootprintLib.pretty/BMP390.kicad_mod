@@ -914,4 +914,15 @@
 		(uuid "a681055a-27ba-42f1-a996-0e41280c4d21")
 	)
 	(embedded_fonts no)
+	(model "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/BMP390/10LGA_2X2X0p75_BOS.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

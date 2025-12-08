@@ -3606,4 +3606,15 @@
 			(checksum "BC8F3B55935D625014E191864DB11524")
 		)
 	)
+	(model "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/MEM2061/MEM2061-01-188-00-A.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

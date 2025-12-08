@@ -9,7 +9,7 @@
   (lib (name "GH-6P-import")(type "KiCad")(uri "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/SM06B-GHS-TB/KiCADv6/2025-11-05_09-04-46.kicad_sym")(options "")(descr ""))
   (lib (name "GH-4P-import")(type "KiCad")(uri "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/SM04B-GHS-TB/KiCADv6/2025-11-05_10-28-14.kicad_sym")(options "")(descr ""))
   (lib (name "MEM2061-import")(type "KiCad")(uri "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/MEM2061/KiCADv6/2025-11-06_09-10-25.kicad_sym")(options "")(descr ""))
-  (lib (name "USB4105-import")(type "KiCad")(uri "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/USB4105/KiCADv6/2025-11-07_08-36-26.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4105-import")(type "KiCad")(uri "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/USB4105/KiCADv6/2025-11-07_08-36-26.kicad_sym")(options "")(descr "")(disabled))
   (lib (name "19-337C-import")(type "KiCad")(uri "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/19-337C/KiCADv6/2025-11-16_00-59-52.kicad_sym")(options "")(descr ""))
   (lib (name "FTSH-105-import")(type "KiCad")(uri "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/FTSH-105-01-F-DV-K/KiCADv6/2025-11-17_11-49-15.kicad_sym")(options "")(descr ""))
   (lib (name "TPD4E05U06-import")(type "KiCad")(uri "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/TPD4E05U06DQAR/KiCADv6/2025-11-18_10-21-21.kicad_sym")(options "")(descr ""))

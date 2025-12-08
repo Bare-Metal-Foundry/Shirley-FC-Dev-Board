@@ -386,4 +386,15 @@
 		(uuid "4aad9a35-0516-4f97-bc29-ee68d0140d69")
 	)
 	(embedded_fonts no)
+	(model "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/PCM12SMTR/PCM12SMTR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

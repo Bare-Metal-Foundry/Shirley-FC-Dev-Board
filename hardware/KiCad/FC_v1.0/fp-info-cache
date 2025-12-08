@@ -1,4 +1,4 @@
-26741851941612454
+26745387328221446
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61397,12 +61397,26 @@ SM06B-GHS-TB
 8
 8
 FC-FootprintLib
+GCT_USB4105-GF-A
+
+
+0
+16
+16
+FC-FootprintLib
 ICM-42688-P
 
 ICM-42688-P 
 0
 14
 14
+FC-FootprintLib
+L_Coilcraft_XxL4020
+L_Coilcraft_XxL4020 https://www.coilcraft.com/pdfs/xfl4020.pdf
+L Coilcraft XxL4020
+0
+2
+2
 FC-FootprintLib
 MEM2061-01-188-00-A_GCT
 
@@ -61417,6 +61431,13 @@ MMC5983MA
 0
 16
 16
+FC-FootprintLib
+Pad_out_1x6
+
+
+0
+6
+6
 FC-FootprintLib
 SMD-B_19-337C_EVE
 
@@ -61451,21 +61472,21 @@ TPS7A2133PQWDRBRQ1
 
 0
 13
-13
+9
 FC-FootprintLib
 TPS2113A
 
 TPS2113ADRBR 
 0
 15
-10
+9
 FC-FootprintLib
 TPS62130ARGTR
 
 TPS62130RGTR 
 0
 21
-18
+17
 FC-FootprintLib
 TSX-3225_16MHz
 
@@ -61480,13 +61501,6 @@ TSD05DYFR
 0
 2
 2
-FC-FootprintLib
-USB4105_GCT
-
-USB4105-GF-A 
-0
-12
-12
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters

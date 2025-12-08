@@ -1138,4 +1138,15 @@
 		(uuid "947c7831-bcfe-4e25-a1ec-532412c16b06")
 	)
 	(embedded_fonts no)
+	(model "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/ICM-42688-P/LGA14_2P5X3X0P91_TDK.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
