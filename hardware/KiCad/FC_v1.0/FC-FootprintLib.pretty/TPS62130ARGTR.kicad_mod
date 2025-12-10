@@ -1598,13 +1598,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "ff7a060c-ae7a-4493-9605-1108779c6ac8")
 	)
-	(pad "17" smd rect
-		(at 0 0)
-		(size 1.7 1.7)
-		(layers "F.Cu")
-		(uuid "e6a6c101-511b-47bb-9311-a557b956d105")
-	)
-	(pad "V" thru_hole circle
+	(pad "17" thru_hole circle
 		(at -0.3937 -0.3937)
 		(size 0.508 0.508)
 		(drill 0.254)
@@ -1612,7 +1606,7 @@
 		(remove_unused_layers no)
 		(uuid "cb71a5e5-8783-4b45-b167-ec7be849ec2c")
 	)
-	(pad "V" thru_hole circle
+	(pad "17" thru_hole circle
 		(at -0.3937 0.3937)
 		(size 0.508 0.508)
 		(drill 0.254)
@@ -1620,7 +1614,13 @@
 		(remove_unused_layers no)
 		(uuid "bf46d876-076a-4648-bd7d-afe1a03b6de5")
 	)
-	(pad "V" thru_hole circle
+	(pad "17" smd rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(layers "F.Cu")
+		(uuid "e6a6c101-511b-47bb-9311-a557b956d105")
+	)
+	(pad "17" thru_hole circle
 		(at 0.3937 -0.3937)
 		(size 0.508 0.508)
 		(drill 0.254)
@@ -1628,7 +1628,7 @@
 		(remove_unused_layers no)
 		(uuid "8d331d65-8669-45e4-973c-5231e69b6652")
 	)
-	(pad "V" thru_hole circle
+	(pad "17" thru_hole circle
 		(at 0.3937 0.3937)
 		(size 0.508 0.508)
 		(drill 0.254)
@@ -1637,4 +1637,15 @@
 		(uuid "930ce943-cbde-4b04-99bb-066817d0d320")
 	)
 	(embedded_fonts no)
+	(model "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/TPS62130RGTR/RGT0016C.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

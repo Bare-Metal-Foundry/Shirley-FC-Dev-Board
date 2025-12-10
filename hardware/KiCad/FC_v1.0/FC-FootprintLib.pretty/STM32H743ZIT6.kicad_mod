@@ -1450,4 +1450,15 @@
 		(uuid "32e3ff65-d424-4ed1-b1e3-25c6f0a0ef77")
 	)
 	(embedded_fonts no)
+	(model "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/STM32H743ZIT6/LQFP144-20x20mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

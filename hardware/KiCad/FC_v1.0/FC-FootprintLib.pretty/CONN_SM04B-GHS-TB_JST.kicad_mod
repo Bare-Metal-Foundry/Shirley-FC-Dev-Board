@@ -55,7 +55,7 @@
 	(attr smd)
 	(fp_line
 		(start -4.2545 -2.5527)
-		(end -4.2545 0.445461)
+		(end -4.2545 -0.5)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -64,18 +64,8 @@
 		(uuid "ea60982f-e1ef-4529-874c-8d917ebaa90a")
 	)
 	(fp_line
-		(start -4.2545 2.203141)
-		(end -4.2545 2.552701)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "3ecd6301-5650-40a3-a7f8-6ac5d21442c6")
-	)
-	(fp_line
-		(start -4.2545 2.552701)
-		(end 4.2545 2.552701)
+		(start -2.75 2.552701)
+		(end 2.75 2.552701)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -104,7 +94,7 @@
 		(uuid "d884be9d-7697-4f48-b8fb-ea8c4ea18053")
 	)
 	(fp_line
-		(start 4.2545 0.445461)
+		(start 4.2545 -0.5)
 		(end 4.2545 -2.5527)
 		(stroke
 			(width 0.1524)
@@ -112,16 +102,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "4107c35c-a80a-4834-b90f-ad6f991f5834")
-	)
-	(fp_line
-		(start 4.2545 2.552701)
-		(end 4.2545 2.203141)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5ab9ba62-8def-4022-a044-6c3748a07540")
 	)
 	(fp_circle
 		(center -6.0325 -1.8757)
@@ -273,16 +253,27 @@
 		(uuid "97bd8908-9705-4367-9f2a-2889bfa2cae8")
 	)
 	(pad "5" smd rect
-		(at -3.724999 1.324301 90)
+		(at -3.75 1.25 180)
 		(size 1.0922 2.794)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "58fea2a2-82a2-435f-a2ea-816af4f59145")
 	)
 	(pad "6" smd rect
-		(at 3.724999 1.324301 90)
+		(at 3.75 1.25 180)
 		(size 1.0922 2.794)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1480b695-1959-42ae-a447-d780aa4f9b9d")
 	)
 	(embedded_fonts no)
+	(model "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/SM04B-GHS-TB/SM04B-GHS-TB.STEP"
+		(offset
+			(xyz 0 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
