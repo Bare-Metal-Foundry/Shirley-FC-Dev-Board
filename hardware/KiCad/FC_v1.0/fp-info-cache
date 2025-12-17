@@ -1,4 +1,4 @@
-26748924716966778
+26750691184140207
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61439,14 +61439,21 @@ MMC5983MA
 16
 16
 FC-FootprintLib
-Mini_Pad_out_1x6
+Pad_out_1x6
 
 
 0
 6
 6
 FC-FootprintLib
-Pad_out_1x6
+Pad_out_mini_1x4
+
+
+0
+4
+4
+FC-FootprintLib
+Pad_out_mini_1x6
 
 
 0
