@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "FC Interface Section")
-		(date "2025-12-01")
-		(rev "v0.5")
+		(date "2026-01-03")
+		(rev "v0.7")
 		(company "Guilhem Andrieu")
 	)
 	(lib_symbols
@@ -12344,15 +12344,27 @@
 		)
 		(uuid "07de3e9f-cf6a-43a7-abaf-871a3952affa")
 	)
-	(text "I2C2"
+	(text "I2C Port\nI2C1"
 		(exclude_from_sim no)
-		(at 373.126 133.35 0)
+		(at 373.126 134.874 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "0c63a2c6-dcd9-4874-83b0-120e1be90107")
+	)
+	(text "RC Command\nUSART6"
+		(exclude_from_sim no)
+		(at 292.1 105.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13160ede-038a-4809-9545-e44b8ebbe178")
 	)
 	(text "SDMMC1\n---------------\nCARD_DETECTS Pin are both end of the \ninternal insertion switch\n---------------\nWe rely on the MCU internal \npullup resitors ans ESD protection"
 		(exclude_from_sim no)
@@ -12388,13 +12400,14 @@
 		)
 		(uuid "58420e2c-c7a4-410b-a11c-007266c1e60b")
 	)
-	(text "TIM1"
+	(text "Motors (ESC)\nTIM1"
 		(exclude_from_sim no)
-		(at 290.576 70.866 0)
+		(at 292.862 73.152 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "74c09da5-fa7b-4272-9567-52d76d041c7b")
 	)
@@ -12445,7 +12458,7 @@
 		)
 		(uuid "a4d7f133-459a-40b8-933c-5e14d06c6855")
 	)
-	(text "I2C4\nUART7\n\n"
+	(text "I2C4\nUSART2\n\n"
 		(exclude_from_sim no)
 		(at 313.69 209.804 0)
 		(effects
@@ -12455,9 +12468,9 @@
 		)
 		(uuid "af362ceb-51e8-4ba5-bb9d-e5a37a2e6b90")
 	)
-	(text "UART4\nwith Hardware Flow Control"
+	(text "Telemetry\nUART4\nwith Hardware Flow Control"
 		(exclude_from_sim no)
-		(at 374.396 71.882 0)
+		(at 372.872 73.152 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12466,9 +12479,9 @@
 		)
 		(uuid "b1fd3fae-adbf-4c4e-849e-a833df1ed3a9")
 	)
-	(text "UART5\nFDCAN2"
+	(text "GPS\nUART8\nFDCAN1"
 		(exclude_from_sim no)
-		(at 374.142 103.886 0)
+		(at 372.872 104.902 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14574,7 +14587,7 @@
 		(uuid "8283d5f4-42d9-4c6a-9035-0c6b2c0fbf3f")
 	)
 	(global_label "SD_DAT1"
-		(shape input)
+		(shape bidirectional)
 		(at 68.58 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14585,7 +14598,7 @@
 		)
 		(uuid "0145847c-e43a-4105-9a52-26875110631e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.612 50.8 0)
+			(at 56.5007 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14618,7 +14631,7 @@
 		)
 	)
 	(global_label "DEBUG_NRST"
-		(shape input)
+		(shape output)
 		(at 68.58 228.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14640,7 +14653,7 @@
 		)
 	)
 	(global_label "SD_DAT0"
-		(shape input)
+		(shape bidirectional)
 		(at 68.58 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14651,7 +14664,7 @@
 		)
 		(uuid "187e49d2-985d-4ddf-acc5-afe730d73a51")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.612 53.34 0)
+			(at 56.5007 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14662,7 +14675,7 @@
 		)
 	)
 	(global_label "DEBUG_SWDIO"
-		(shape input)
+		(shape bidirectional)
 		(at 68.58 236.22 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14673,7 +14686,7 @@
 		)
 		(uuid "1b962f43-e21d-45f5-bae1-390b2733ac6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.6885 236.22 0)
+			(at 85.7998 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14727,7 +14740,7 @@
 			)
 		)
 	)
-	(global_label "CDS_SD"
+	(global_label "SD_CDS"
 		(shape output)
 		(at 143.51 78.74 0)
 		(fields_autoplaced yes)
@@ -14904,7 +14917,7 @@
 		)
 	)
 	(global_label "SD_DAT2"
-		(shape input)
+		(shape bidirectional)
 		(at 68.58 68.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14915,7 +14928,7 @@
 		)
 		(uuid "4c9f0a33-a1d9-415c-bce8-8fbbe3ef1ee6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.612 68.58 0)
+			(at 56.5007 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15014,7 +15027,7 @@
 		)
 	)
 	(global_label "I2C_SDA"
-		(shape output)
+		(shape bidirectional)
 		(at 331.47 125.73 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15025,7 +15038,7 @@
 		)
 		(uuid "6eb0d71c-b4d2-448d-a507-183770cd52f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.8648 125.73 0)
+			(at 319.7535 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15102,7 +15115,7 @@
 		)
 	)
 	(global_label "PO_SDA"
-		(shape output)
+		(shape bidirectional)
 		(at 270.51 204.47 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15113,7 +15126,7 @@
 		)
 		(uuid "7c4d4b93-fa26-4184-8b77-dfa4f78b6a09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.3886 204.47 0)
+			(at 259.2773 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15124,7 +15137,7 @@
 		)
 	)
 	(global_label "TELEM_CTS"
-		(shape output)
+		(shape bidirectional)
 		(at 358.14 60.96 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15135,7 +15148,7 @@
 		)
 		(uuid "7eb95aff-90ff-4002-83eb-30bf716b7b15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 344.995 60.96 0)
+			(at 343.8837 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15168,7 +15181,7 @@
 		)
 	)
 	(global_label "SD_DAT3"
-		(shape input)
+		(shape bidirectional)
 		(at 68.58 66.04 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15179,7 +15192,7 @@
 		)
 		(uuid "8f05b673-fe4f-410c-b093-d3c3a536d451")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.612 66.04 0)
+			(at 56.5007 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15234,7 +15247,7 @@
 		)
 	)
 	(global_label "TELEM_RTS"
-		(shape input)
+		(shape bidirectional)
 		(at 358.14 63.5 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15245,7 +15258,7 @@
 		)
 		(uuid "97a65697-1f28-49a6-a9f8-3183ece39cfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 344.995 63.5 0)
+			(at 343.8837 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15278,7 +15291,7 @@
 		)
 	)
 	(global_label "GPS_CAN_TX"
-		(shape output)
+		(shape input)
 		(at 358.14 92.71 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15344,7 +15357,7 @@
 		)
 	)
 	(global_label "DEBUG_SWO"
-		(shape input)
+		(shape bidirectional)
 		(at 68.58 238.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15355,7 +15368,7 @@
 		)
 		(uuid "c34af032-17c7-4f5a-a65f-963358b3faca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.8137 238.76 0)
+			(at 83.925 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
