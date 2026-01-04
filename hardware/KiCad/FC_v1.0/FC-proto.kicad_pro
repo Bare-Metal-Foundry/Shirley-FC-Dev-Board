@@ -590,43 +590,43 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": "HS",
         "pattern": "USB*"
       },
       {
-        "netclass": "Default",
+        "netclass": "PWR_5V",
         "pattern": "+5V*"
       },
       {
-        "netclass": "Default",
+        "netclass": "PWR_3V3",
         "pattern": "+3.3V"
       },
       {
-        "netclass": "Default",
+        "netclass": "PWR_3V3A",
         "pattern": "+3.3VA"
       },
       {
-        "netclass": "Default",
+        "netclass": "HS",
         "pattern": "SD*"
       },
       {
-        "netclass": "Default",
+        "netclass": "OSC",
         "pattern": "HSE*"
       },
       {
-        "netclass": "Default",
+        "netclass": "GND",
         "pattern": "GND"
       },
       {
-        "netclass": "Default",
+        "netclass": "IMU",
         "pattern": "IMU*"
       },
       {
-        "netclass": "Default",
+        "netclass": "MAG",
         "pattern": "MAG*"
       },
       {
-        "netclass": "Default",
+        "netclass": "DEBUG",
         "pattern": "DEBUG*"
       }
     ]
