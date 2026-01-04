@@ -8,7 +8,7 @@ All configs are stored in YAML.
 
 ![board_render](./docs/hardware/version-history/FC-Shirley-v0.7-topview.png)
 
-A high-performance flight controller hardware platform built around the STM32H743 microcontroller, designed for custom firmware development and compatibility with existing flight stacks (PX4, Ardupilot, Betaflight).
+Shirley is high-performance flight controller hardware platform built around the STM32H743 microcontroller, designed for custom firmware development and compatibility with existing flight stacks (PX4, Ardupilot, Betaflight).
 
 ## Features
 
@@ -21,8 +21,8 @@ A high-performance flight controller hardware platform built around the STM32H74
 
 ### Power System
 - **Input**: 5V via standard Pixhawk power module
-- **Architecture**: Dual 3.3V rails (digital + filtered analog) for low-noise sensor operation
-- **Protection**: Ideal-diode ORing with USB fallback power
+- **Architecture**: 5V MUX + Dual 3.3V rails (digital + filtered analog) for low-noise sensor operation
+- **Protection**: ESD protection on the USB-C and power connector
 
 ### Connectivity
 - **Motor Control**: 4x ESC outputs (GH connectors)
@@ -30,7 +30,7 @@ A high-performance flight controller hardware platform built around the STM32H74
 - **GPS**: Dedicated UART interface
 - **Telemetry**: Bidirectional radio module support
 - **USB**: Full-speed OTG for configuration and debugging
-- **CAN**: Dual FDCAN interfaces for peripherals
+- **CAN**: FDCAN interface (in the GPS connector)
 - **Debug**: Tag-Connect SWD/SWO interface
 
 ## Documentation

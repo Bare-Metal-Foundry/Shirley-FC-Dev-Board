@@ -54,19 +54,51 @@ The power system uses a hierarchical rail structure:
 
 Critical note: VDD33_USB must be supplied 3.3V even if USB is not actively used.
 
-### Communication Interfaces
-(from `config/pinout.yaml`)
-- **UART4, UART5**: GPS and telemetry
-- **SPI1, SPI2**: IMU and sensor communication
-- **I2C1, I2C2**: Peripheral communication
-- **FDCAN1, FDCAN2**: CAN bus interfaces (PD0/PD1, PB5/PB6)
-- **SDMMC1**: SD card interface (PC8-PC12, PD2)
-- **USB_OTG_FS**: USB interface (PA11/PA12)
+### Peripheral Pinout
+(from `config/pinout.yaml` v0.7 - 2025-01-04)
 
-### Debug Interface
-- **SWD**: PA13 (SWDIO), PA14 (SWCLK)
+#### Serial Communication
+- **UART4** (Telemetry): TX: PA0, RX: PA1, CTS: PB0, RTS: PB14
+- **UART5** (Mini Pad Out UART): TX: PB13, RX: PB12
+- **UART8** (GPS): TX: PE1, RX: PE0
+- **USART2** (Pad Out USART): TX: PA2, RX: PA3
+- **USART6** (RC Receiver): TX: PC6, RX: PC7
+
+#### SPI Buses
+- **SPI4** (Magnetometer): SCK: PE2, MISO: PE5, MOSI: PE6
+- **SPI5** (IMU): SCK: PF7, MISO: PF8, MOSI: PF9
+
+#### I2C Buses
+- **I2C1** (I2C Connector - External Compass): SDA: PB7, SCL: PB6
+- **I2C2** (Barometer): SDA: PF0, SCL: PF1
+- **I2C4** (Pad Out I2C): SDA: PF15, SCL: PF14
+
+#### CAN Bus
+- **FDCAN1** (GPS CAN Bus): RX: PD0, TX: PB9
+
+#### Analog Inputs
+- **ADC1** (Battery Voltage/Current Sensor): INP2: PF11 (Voltage), INP3: PA6 (Current)
+- **ADC2** (Pad Out ADCs): INP2: PF13, INP4: PC4, INP5: PB1
+
+#### PWM/Timer Outputs
+- **TIM1** (Motors ESC PWM/DShot): CH1: PE9, CH2: PE11, CH3: PE13, CH4: PE14
+- **TIM4** (RGB LED): CH1: PD12 (Red), CH2: PD13 (Green), CH3: PD14 (Blue)
+
+#### Storage & USB
+- **SDMMC1** (SD Card): D0: PC8, D1: PC9, D2: PC10, D3: PC11, CK: PC12, CMD: PD2, CDS: PD3
+- **USB_OTG_FS** (USB-C): DM: PA11, DP: PA12, VBUS: PA9
+
+#### System GPIOs
+- **SYS_LED** (System Status LED): PD6
+- **EXT_SWITCH** (External System Switch): PE3
+- **PWR_GOOD** (Power Good Signal - Buck 3V3 rail): PD9
+- **BUZZER** (External Active Buzzer): PC3_C
+- **EXTERNAL_GPIOS** (Pad Out GPIOs): GPIO_68: PE15, GPIO_69: PB10, GPIO_70: PB11
+
+#### Debug Interface
+- **SWD**: SWDIO: PA13, SWCLK: PA14
 - **SWO**: PB3 (JTDO/TRACESWO)
-- **External oscillator**: PH0-OSC_IN, PH1-OSC_OUT
+- **HSE** (External oscillator): OSC_IN: PH0, OSC_OUT: PH1
 
 ## Working with Hardware Files
 
