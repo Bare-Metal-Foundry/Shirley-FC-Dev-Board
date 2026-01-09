@@ -6,9 +6,9 @@ All configs are stored in YAML.
 
 # Shirley - Flight Controller Development Board
 
-![board_render](./docs/hardware/version-history/FC-Shirley-v0.7-topview.png)
+![board_render](./docs/hardware/exports/FC-Shirley-v0.7-topview.png)
 
-Shirley is high-performance flight controller hardware platform built around the STM32H743 microcontroller, designed for custom firmware development and compatibility with existing flight stacks (PX4, Ardupilot, Betaflight).
+Shirley is high-performance flight controller hardware platform built around the STM32H743 microcontroller, designed for custom firmware development and compatibility with existing flight stacks.
 
 ## Features
 
@@ -22,16 +22,18 @@ Shirley is high-performance flight controller hardware platform built around the
 ### Power System
 - **Input**: 5V via standard Pixhawk power module
 - **Architecture**: 5V MUX + Dual 3.3V rails (digital + filtered analog) for low-noise sensor operation
-- **Protection**: ESD protection on the USB-C and power connector
+- **Protection**: ESD protection on USB-C and power connector
 
 ### Connectivity
-- **Motor Control**: 4x ESC outputs (GH connectors)
+- **Motor Control**: 4x ESC outputs
 - **RC Input**: Standard RC receiver connection
 - **GPS**: Dedicated UART interface
 - **Telemetry**: Bidirectional radio module support
 - **USB**: Full-speed OTG for configuration and debugging
 - **CAN**: FDCAN interface (in the GPS connector)
 - **Debug**: Tag-Connect SWD/SWO interface
+
+Note: All connectors are GH1.25 connectors
 
 ## Documentation
 
@@ -44,16 +46,17 @@ This project uses atomic documentation - each subsystem is documented independen
 
 All hardware configurations are defined in machine-readable YAML format in `/config`:
 - **[pinout.yaml](config/pinout.yaml)** - Complete STM32H743 pin assignments
-- **[power.yaml](config/power.yaml)** - Power rail specifications
+- **[power.yaml](config/power.yaml)** - Power rail specifications and architecture
 
 ## Repository Structure
 
 ```
-├── hardware/KiCad/FC_v1.0/     # KiCad 9.0 schematics and PCB layout
-├── firmware/STM32 Cube IDE/    # STM32CubeMX configuration
-├── config/                      # YAML configuration files
-├── docs/                        # Atomic documentation by subsystem
-└── resources/datasheets/        # Component datasheets organized by type
+├── hardware/KiCad/FC_v1.0/         # KiCad 9.0 schematics and PCB layout
+├── firmware/STM32 Cube IDE/        # STM32CubeMX configuration
+├── config/                         # YAML configuration files
+├── docs/                           # Atomic documentation by subsystem
+├── docs/hardware/exports/          # exports and version history
+└── resources/datasheets/           # Component datasheets organized by type
 ```
 
 ## Getting Started
@@ -71,23 +74,16 @@ All hardware configurations are defined in machine-readable YAML format in `/con
 ## Design Philosophy
 
 This first revision prototype prioritizes:
-- **Signal quality**: Low-noise analog power domain for sensor accuracy
-- **Reliability**: Well-characterized components with proven flight heritage
-- **Expandability**: Room for additional sensors and peripherals
 - **Development-friendly**: Easy debugging via Tag-Connect, USB, and comprehensive logging
+- **Compact Board**: Compact board to fit in smaller frames
+- **Signal quality**: Low-noise analog power domain for sensor accuracy
+- **Integration**: Integration with existing pixhawk drone hardware
 
 ## Flight Stack Compatibility
 
-The hardware pinout and peripheral configuration support:
+The hardware pinout and peripheral configuration supports:
 - **PX4** - Full feature compatibility
 - **Ardupilot** - Standard Pixhawk interface support
 - **Betaflight** - High-rate control loop capability
 
-## License
-
-[Add your license information here]
-
-## Contributing
-
-[Add contribution guidelines if applicable]
 

@@ -84,16 +84,16 @@ power_management_ics:
 
   ldo_analog:
     ref: "U4"
-    part: "TPS7A2133"
+    part: "TPS7A2133PQWDRBRQ1"
     function: "Low-noise LDO regulator"
-    package: "8-VDFN (3x3mm)"
+    package: "WSON-8 (3x3mm)"
 
     specs:
-      input: "5V_SYS (3.0-17.0V capable)"
-      output: "3V3_ANA, 3.3V ±3%, 300mA max, ~20-50mA typical"
-      ripple: "<10mV p-p"
-      noise: "4.5µVRMS (10Hz-100kHz)"
-      dropout: "210mV @ 300mA"
+      input: "5V_SYS (2.0-6.0V capable)"
+      output: "3V3_ANA, 3.3V, 500mA max, ~20-50mA typical"
+      psrr: "65dB @ 1kHz"
+      noise: "7.7µVRMS (10Hz-100kHz)"
+      dropout: "265mV @ 500mA"
 
 # =============================================================================
 # POWER RAILS
@@ -103,7 +103,7 @@ power_rails:
     voltage: "5.0V ±5% (4.75-5.25V)"
     source: "U2 (TPS2113ADRBR)"
     current: "2.5A max, ~1.0-1.5A typical"
-    loads: "Buck converter: ~750mA, Future onboard: ~1.0A margin"
+    loads: "Buck converter: ~750mA, LDO: ~50mA, Future onboard: ~1.0A margin"
     ripple: "<100mV p-p"
     notes: "Reserved for ONBOARD systems. External peripherals connect to EXT_5V (bypass MUX)"
 
@@ -117,8 +117,8 @@ power_rails:
 
   3v3_ana:
     voltage: "3.3V ±3% (3.20-3.40V)"
-    source: "FB1 (ferrite filter from 3V3_DIG)"
-    current: "300mA max, ~20-50mA typical"
+    source: "U4 (TPS7A2133)"
+    current: "500mA max, ~20-50mA typical"
     loads: "IMU: ~1mA, MAG: ~3mA, Barometer: ~5mA, STM32 VDDA: ~10mA, GPS: ~50-150mA (optional)"
     ripple: "<10mV p-p"
     filtering: "FB1 + C14: 100nF + C15: 1µF"

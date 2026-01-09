@@ -383,19 +383,6 @@ When configuring, you should see:
 - Clock tree showing path to TIM1
 - APB2 timer clock = 200MHz
 
----
-
-## 💡 Next Steps
-
-After configuration:
-1. Generate code
-2. Add the HAL_TIM_PWM_Start() calls
-3. Test with one motor (no propeller!)
-4. Gradually increase CCR value to verify motor response
-5. Implement your control algorithm
-
----
-
 ## 📚 Additional Resources
 
 **STM32 Documentation:**
@@ -407,9 +394,3 @@ After configuration:
 - Most ESCs expect 50Hz (some support 400Hz)
 - 1000μs = min, 2000μs = max (standard)
 - Always test without propellers first!
-
----
-
-**Good luck with your motor control project! 🚁**
-
-*Remember: Safety first - always start at minimum throttle and remove propellers during testing!*
