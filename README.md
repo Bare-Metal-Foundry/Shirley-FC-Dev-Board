@@ -6,7 +6,7 @@ All configs are stored in YAML.
 
 # Shirley - Flight Controller Development Board
 
-![board_render](./docs/hardware/exports/FC-Shirley-v0.7-topview.png)
+![board_render](./exports/FC-Shirley-v0.7-topview.png)
 
 Shirley is high-performance flight controller hardware platform built around the STM32H743 microcontroller, designed for custom firmware development and compatibility with existing flight stacks.
 
@@ -60,6 +60,11 @@ All hardware configurations are defined in machine-readable YAML format in `/con
 ```
 
 ## Getting Started
+
+### Overview
+1. Exported schematics and renders can be found here: `exports/`
+2. The different versions designed and produced are detailed here: `exports/versions-history.md`
+3. An overview of the design can be found here: `docs/hardware/overview.md`
 
 ### Hardware Design
 1. Open schematics in **KiCad 9.0**: `hardware/KiCad/FC_v1.0/FC-proto.kicad_sch`

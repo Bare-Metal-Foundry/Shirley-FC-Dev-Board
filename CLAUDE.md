@@ -16,22 +16,28 @@ This is a custom flight controller hardware design project centered around the S
 │   │   ├── FC-interfaces_sch.kicad_sch
 │   │   ├── FC-Sensors.kicad_sch
 │   │   └── FC-proto.kicad_pcb
-│   └── cad-layout/             # Custom footprints for specific components
+│   └── cad-layout/             # Custom footprints (STM32, sensors, power ICs, connectors)
 ├── firmware/
 │   └── STM32 Cube IDE/         # STM32CubeMX .ioc configuration
 ├── config/
-│   ├── pinout.yaml             # STM32H743 peripheral pinout 
-│   └── power.yaml              # Power rail specifications
+│   ├── pinout.yaml             # STM32H743 peripheral pinout (v0.7)
+│   └── power.yaml              # Power rail specifications and architecture
 ├── docs/
 │   ├── hardware/               # Hardware subsystem documentation
-│   │   ├── overview.md
-│   │   ├── power-architecture.md
-│   │   ├── design-decisions.md
-│   │   └── stm32-subsystem/
+│   │   ├── board-interfaces/   # UART, SPI, I2C, CAN, USB, SD card interfaces
+│   │   ├── embedded-sensors/   # IMU, magnetometer, barometer documentation
+│   │   ├── power-subsystem/    # Power architecture and rail specifications
+│   │   └── stm32-subsystem/    # MCU peripheral configuration
 │   └── README.md               # Atomic documentation philosophy
+├── exports/                    # Board exports and version history
+│   ├── manufacturing/          # Gerbers, BOMs, pick-and-place files
+│   └── past-versions/          # Previous board revisions and schematics
 └── resources/
-    ├── datasheets/             # Organized by component type (BAR, CAN, IMU, etc.)
-    └── manufacturer-notes/
+    ├── datasheets/             # Component datasheets by category
+    │   ├── BAR, CAN, CONNECTOR, CRYSTAL, DEBUG, ESD, FUSE
+    │   ├── IMU, IND, LDO, LED, MAG, MOSFET, POWER
+    │   └── SD_CARD, STM32, SWITCH, USB-C
+    └── manufacturer-notes/     # Application notes and reference materials
 ```
 
 ## Hardware Architecture
@@ -42,17 +48,21 @@ This is a custom flight controller hardware design project centered around the S
 - Hierarchical schematic design with separate sheets for power, interfaces, and sensors
 
 ### Key Sensors
-- **ICM-42688-P** (Primary IMU): Low-noise 6-axis IMU with up to 32 kHz ODR, connected via SPI
+- **ICM-40609-D** (Primary IMU): Low-noise 6-axis IMU with up to 32 kHz ODR, connected via SPI
 - **MMC5983MA** (Magnetometer): 18-bit high-precision magnetometer with built-in degaussing
+- **BMP390** (Barometer): High-precision altitude sensing
 - See `docs/hardware/design-decisions.md` for sensor selection rationale
 
 ### Power Architecture
 The power system uses a hierarchical rail structure:
-- **5V_SYS**: 2.5A (via TPS2113A ideal-diode MUX with priority: EXT_5V > USB)
-- **3V3_DIG**: 2A (buck regulator TPS62130RGTR for digital logic)
-- **3V3_ANA**: 300 mA (ferrite bead filter from 3V3_DIG for analog/sensor clean power)
+- **EXT_5V**: Direct from Pixhawk power module (2-3A), supplies external peripherals (GPS, telemetry) bypassing the MUX
+- **5V_SYS**: 2.5A (via TPS2113A ideal-diode MUX with priority: EXT_5V > USB), powers onboard systems only
+- **3V3_DIG**: 2A (buck regulator TPS62130RGTR from 5V_SYS for digital logic)
+- **3V3_ANA**: 500mA (LDO TPS7A2133 from 5V_SYS for ultra-low-noise analog/sensor clean power)
 
-Critical note: VDD33_USB must be supplied 3.3V even if USB is not actively used.
+Critical notes:
+- VDD33_USB must be supplied 3.3V even if USB is not actively used
+- External peripherals connect to EXT_5V and bypass the MUX to preserve 5V_SYS budget for onboard systems
 
 ### Peripheral Pinout
 (from `config/pinout.yaml` v0.7 - 2025-01-04)
@@ -110,9 +120,9 @@ Critical note: VDD33_USB must be supplied 3.3V even if USB is not actively used.
   - Interface subsystem (UART, CAN, USB, SD card)
   - Sensor subsystem
 - Custom footprints in `hardware/cad-layout/` for components like:
-  - STM32H743ZIT6, ICM-42688-P, MMC5983MA
-  - Power ICs (TPS2113A, TPS62130RGTR)
-  - Connectors (SM03B-GHS-TB, FTSH-105-01-F-DV-K)
+  - STM32H743ZIT6, ICM-40609-D, MMC5983MA, BMP390
+  - Power ICs (TPS2113A, TPS62130RGTR, TPS7A2133)
+  - Connectors (SM06B-GHS-TB, FTSH-105-01-F-DV-K)
 
 ### Firmware Configuration
 - STM32CubeMX project: `firmware/STM32 Cube IDE/FC-proto-El.ioc`
@@ -130,10 +140,13 @@ Defines all STM32H743 peripheral pin assignments. When modifying hardware:
 
 
 ### power.yaml
-Power rail specifications (currently empty template). Should contain:
-- Voltage rail definitions
-- Current budgets
-- Regulator specifications
+Complete power rail specifications including:
+- Pixhawk power module compatibility and interface
+- Current budget breakdown for all subsystems
+- Power input sources (EXT_5V, USB_VBUS)
+- Power management IC specifications (TPS2113A MUX, TPS62130 buck, TPS7A2133 LDO)
+- Power rail definitions (5V_SYS, 3V3_DIG, 3V3_ANA) with voltage, current, loads, ripple specs
+- Power distribution hierarchy and flow diagram
 
 ## Workflow and File Modification Guidelines
 
@@ -189,9 +202,9 @@ When documenting new hardware blocks:
 ## Component Datasheets
 
 Organized by category in `resources/datasheets/`:
-- BAR (barometer), CAN, CONNECTOR, CRYSTAL, ESD, FUSE
-- IMU, LED, MAG (magnetometer), POWER, SD_CARD
-- STM32, SWITCH, USB-C
+- BAR (barometer), CAN, CONNECTOR, CRYSTAL, DEBUG, ESD, FUSE
+- IMU, IND (inductor), LDO, LED, MAG (magnetometer), MOSFET, POWER
+- SD_CARD, STM32, SWITCH, USB-C
 
 When referencing components, datasheets are always available in these subdirectories.
 
