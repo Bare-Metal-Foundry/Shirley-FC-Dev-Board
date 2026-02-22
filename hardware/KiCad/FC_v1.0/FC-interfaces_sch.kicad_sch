@@ -798,145 +798,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1269,130 +1130,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:ESD5Zxx"
 			(pin_numbers
 				(hide yes)
@@ -1525,6 +1262,1716 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FC-SchemSymbolLib:0402WGF1001TCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.286 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1k"
+				(at 2.794 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 48.514 -4.064 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+				(at 6.35 -11.684 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+				(at 6.35 -1.778 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 6.35 -6.604 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "0402WGF1001TCE"
+				(at 6.35 -9.144 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 1" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
+				(at 6.35 -14.224 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF1001TCE?qs=e8oIoAS2J1RlrMC0w7DkrQ%3D%3D"
+				(at 6.35 -16.764 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C11702"
+				(at 6.35 -19.304 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF1001TCE_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF1001TCE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FC-SchemSymbolLib:0402WGF1002TCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.286 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 48.514 -4.064 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+				(at 6.35 -11.684 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+				(at 6.35 -1.778 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 6.35 -6.604 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "0402WGF1002TCE"
+				(at 6.35 -9.144 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+				(at 6.35 -14.224 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D"
+				(at 6.35 -16.764 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25744"
+				(at 6.35 -19.304 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF1002TCE_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF1002TCE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FC-SchemSymbolLib:0402WGF2200TCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.286 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "220"
+				(at 3.556 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 48.514 -4.064 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+				(at 6.35 -11.684 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "220Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+				(at 6.35 -1.778 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 6.35 -6.604 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "0402WGF2200TCE"
+				(at 6.35 -9.144 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 1" "https://jlcpcb.com/partdetail/25834-0402WGF2200TCE/C25091"
+				(at 6.35 -14.224 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF2200TCE?qs=e8oIoAS2J1RP9vRYNvZ%252BDQ%3D%3D"
+				(at 6.35 -16.764 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25091"
+				(at 6.35 -19.304 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF2200TCE_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF2200TCE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FC-SchemSymbolLib:0402WGF4701TCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.286 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7k"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 48.514 -4.064 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+				(at 6.35 -11.684 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+				(at 6.35 -1.778 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 6.35 -6.604 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "0402WGF4701TCE"
+				(at 6.35 -9.144 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26643-0402WGF4701TCE/C25900"
+				(at 6.35 -14.224 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF4701TCE?qs=e8oIoAS2J1Ro3%252BPyABtimg%3D%3D"
+				(at 6.35 -16.764 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25900"
+				(at 6.35 -19.304 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF4701TCE_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF4701TCE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FC-SchemSymbolLib:0402WGF5101TCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.286 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5.1k"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 48.514 -4.064 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+				(at 6.35 -11.684 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "5.1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+				(at 6.35 -1.778 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 6.35 -6.604 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "0402WGF5101TCE"
+				(at 6.35 -9.144 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
+				(at 6.35 -14.224 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF5101TCE?qs=e8oIoAS2J1TXcMSJPHU1Ew%3D%3D"
+				(at 6.35 -16.764 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25905"
+				(at 6.35 -19.304 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF5101TCE_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF5101TCE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FC-SchemSymbolLib:0402WGF5102TCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.286 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "51k"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 48.514 -4.064 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+				(at 6.35 -11.684 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "51kΩ 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+				(at 6.35 -1.778 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 6.35 -6.604 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "0402WGF5102TCE"
+				(at 6.35 -9.144 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26537-0402WGF5102TCE/C25794"
+				(at 6.35 -14.224 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF5102TCE?qs=e8oIoAS2J1SY1QM%252BuSu6Tw%3D%3D"
+				(at 6.35 -16.764 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25794"
+				(at 6.35 -19.304 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF5102TCE_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF5102TCE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FC-SchemSymbolLib:CL05A105KA5NQNC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1u"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at 10.16 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+				(at 10.16 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "1uF 25V X5R ±10% 0402"
+				(at 10.16 -2.54 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 10.16 5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+				(at 10.16 2.54 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 1" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+				(at 10.16 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3887103?s=N4IgTCBcDaIMIBkAMBWAggRlQaTSgcgIr5wgC6AvkA"
+				(at 10.16 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C52923"
+				(at 10.16 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL05A105KA5NQNC_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL05A105KA5NQNC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FC-SchemSymbolLib:CL05B104KO5NNNC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "100n"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at 10.16 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+				(at 10.16 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "100nF 16V X7R ±10% 0402 MLCC"
+				(at 10.16 -2.54 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 10.16 5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+				(at 10.16 2.54 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D&srsltid=AfmBOop41Lf4LY67xtjvM8CPV09QzDocsidDAJbiXF9h1fAf4wbrOh-Q"
+				(at 10.16 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?srsltid=AfmBOoooOOLvJqsnQleEQTMA9X0KpDLT1GueNWRvq8dvf84qUAq21gzV"
+				(at 10.16 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C1525"
+				(at 10.16 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL05B104KO5NNNC_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL05B104KO5NNNC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FC-SchemSymbolLib:CL10A106MA8NRNC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "10u"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 10.16 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+				(at 10.16 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "10uF 25V X5R ±20% 0603"
+				(at 10.16 -2.54 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 10.16 5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "CL10A106MA8NRNC"
+				(at 10.16 2.54 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 1" "https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446"
+				(at 10.16 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527?s=N4IgTCBcDaIMIBkCMAGAgqgbAWTQDgDkAlAuEAXQF8g"
+				(at 10.16 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C96446"
+				(at 10.16 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL10A106MA8NRNC_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10A106MA8NRNC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12369,7 +13816,7 @@
 		(uuid "0f5f4657-cf2f-4304-8f36-6ce696133a72")
 	)
 	(junction
-		(at 99.06 137.16)
+		(at 101.6 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25cd4ad8-7c82-4d6a-87c1-0148c7859c6b")
@@ -12405,7 +13852,7 @@
 		(uuid "42b0ea01-2e0c-4aba-a521-24412b0c7768")
 	)
 	(junction
-		(at 54.61 149.86)
+		(at 57.15 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "463d4bba-a5f4-4724-aa09-15bc1e6d94a6")
@@ -12447,7 +13894,7 @@
 		(uuid "79b9ba59-05b9-425d-9336-ecddafa9c6ed")
 	)
 	(junction
-		(at 69.85 137.16)
+		(at 72.39 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93fd8a75-edc2-4401-9967-bc763b51d921")
@@ -12477,7 +13924,7 @@
 		(uuid "aeb6d367-4640-4470-a259-f58aeaf8c816")
 	)
 	(junction
-		(at 54.61 137.16)
+		(at 57.15 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0a63b18-3953-46d4-ac4c-ccb9ddabd214")
@@ -12519,7 +13966,7 @@
 		(uuid "df01e7c4-7d6f-4904-99ea-0adb47c475aa")
 	)
 	(junction
-		(at 85.09 137.16)
+		(at 87.63 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7ad31a4-b133-475b-805d-ba2209d8bbf1")
@@ -12568,7 +14015,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 148.59) (xy 54.61 149.86)
+			(xy 57.15 148.59) (xy 57.15 149.86)
 		)
 		(stroke
 			(width 0)
@@ -12698,7 +14145,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 137.16) (xy 85.09 137.16)
+			(xy 101.6 137.16) (xy 87.63 137.16)
 		)
 		(stroke
 			(width 0)
@@ -12768,7 +14215,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 137.16) (xy 106.68 137.16)
+			(xy 101.6 137.16) (xy 106.68 137.16)
 		)
 		(stroke
 			(width 0)
@@ -12828,7 +14275,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 149.86) (xy 54.61 151.13)
+			(xy 57.15 149.86) (xy 57.15 151.13)
 		)
 		(stroke
 			(width 0)
@@ -12948,7 +14395,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 134.62) (xy 54.61 137.16)
+			(xy 57.15 134.62) (xy 57.15 137.16)
 		)
 		(stroke
 			(width 0)
@@ -13118,7 +14565,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 158.75) (xy 54.61 162.56)
+			(xy 57.15 158.75) (xy 57.15 162.56)
 		)
 		(stroke
 			(width 0)
@@ -13288,7 +14735,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 158.75) (xy 69.85 162.56)
+			(xy 72.39 158.75) (xy 72.39 162.56)
 		)
 		(stroke
 			(width 0)
@@ -13358,7 +14805,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 134.62) (xy 69.85 137.16)
+			(xy 72.39 134.62) (xy 72.39 137.16)
 		)
 		(stroke
 			(width 0)
@@ -13488,7 +14935,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 148.59) (xy 69.85 151.13)
+			(xy 72.39 148.59) (xy 72.39 151.13)
 		)
 		(stroke
 			(width 0)
@@ -13598,7 +15045,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 137.16) (xy 69.85 137.16)
+			(xy 87.63 137.16) (xy 72.39 137.16)
 		)
 		(stroke
 			(width 0)
@@ -13728,7 +15175,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 147.32) (xy 85.09 149.86)
+			(xy 87.63 147.32) (xy 87.63 149.86)
 		)
 		(stroke
 			(width 0)
@@ -13818,7 +15265,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 137.16) (xy 99.06 139.7)
+			(xy 101.6 137.16) (xy 101.6 139.7)
 		)
 		(stroke
 			(width 0)
@@ -14038,7 +15485,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 137.16) (xy 69.85 140.97)
+			(xy 72.39 137.16) (xy 72.39 140.97)
 		)
 		(stroke
 			(width 0)
@@ -14168,7 +15615,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 135.89) (xy 85.09 137.16)
+			(xy 87.63 135.89) (xy 87.63 137.16)
 		)
 		(stroke
 			(width 0)
@@ -14218,7 +15665,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 149.86) (xy 54.61 149.86)
+			(xy 53.34 149.86) (xy 57.15 149.86)
 		)
 		(stroke
 			(width 0)
@@ -14228,7 +15675,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 137.16) (xy 85.09 139.7)
+			(xy 87.63 137.16) (xy 87.63 139.7)
 		)
 		(stroke
 			(width 0)
@@ -14288,7 +15735,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 137.16) (xy 54.61 140.97)
+			(xy 57.15 137.16) (xy 57.15 140.97)
 		)
 		(stroke
 			(width 0)
@@ -14318,7 +15765,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 147.32) (xy 99.06 149.86)
+			(xy 101.6 147.32) (xy 101.6 149.86)
 		)
 		(stroke
 			(width 0)
@@ -14358,7 +15805,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 137.16) (xy 69.85 137.16)
+			(xy 57.15 137.16) (xy 72.39 137.16)
 		)
 		(stroke
 			(width 0)
@@ -15024,7 +16471,7 @@
 	)
 	(global_label "USB_VBUS_SENSE"
 		(shape output)
-		(at 50.8 149.86 180)
+		(at 53.34 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15034,7 +16481,7 @@
 		)
 		(uuid "79189012-700e-4fff-a3fa-f8905666ab7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 149.86 0)
+			(at 33.6635 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15530,7 +16977,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 162.56 0)
+		(at 72.39 162.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15539,8 +16986,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00a47852-39ba-4e74-99db-803989941e52")
-		(property "Reference" "#PWR069"
-			(at 69.85 168.91 0)
+		(property "Reference" "#PWR69"
+			(at 72.39 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15549,7 +16996,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 167.64 0)
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15558,7 +17005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 162.56 0)
+			(at 72.39 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15567,7 +17014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 162.56 0)
+			(at 72.39 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15576,7 +17023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 162.56 0)
+			(at 72.39 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15590,77 +17037,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 255.27 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "018deb90-adf4-4ec7-8221-345bb5c65337")
-		(property "Reference" "C45"
-			(at 251.46 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 251.46 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 254.3048 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 255.27 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ed7788c-f455-45aa-9a14-2aa1bb637886")
-		)
-		(pin "2"
-			(uuid "fc16a66e-4173-4ba6-b93b-8d1aba9a83a6")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "C45")
+					(reference "#PWR69")
 					(unit 1)
 				)
 			)
@@ -15677,7 +17054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "064875a3-ef78-4d1a-8877-6071229544aa")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR77"
 			(at 255.27 54.61 0)
 			(effects
 				(font
@@ -15727,7 +17104,133 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR077")
+					(reference "#PWR77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:0402WGF1001TCE")
+		(at 163.83 233.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0664815e-87e1-4fc0-9bb4-0fd9c6eb7eff")
+		(property "Reference" "R36"
+			(at 163.83 231.394 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 163.83 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 167.894 185.166 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+			(at 175.514 227.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 165.608 227.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 170.434 227.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1001TCE"
+			(at 172.974 227.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 183.134 227.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
+			(at 178.054 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF1001TCE?qs=e8oIoAS2J1RlrMC0w7DkrQ%3D%3D"
+			(at 180.594 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f32b7fd-151a-4872-9cea-3ba33e4a6a3f")
+		)
+		(pin "1"
+			(uuid "557caad5-f00f-4f0d-98db-276ea6670490")
+		)
+		(instances
+			(project ""
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -15735,7 +17238,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 69.85 154.94 90)
+		(at 72.39 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15744,7 +17247,7 @@
 		(fields_autoplaced yes)
 		(uuid "099eafdd-5dc8-4b4e-a958-58b343e97318")
 		(property "Reference" "D6"
-			(at 67.31 155.2574 90)
+			(at 69.85 155.2574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15752,8 +17255,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB_LED"
-			(at 67.31 157.7974 90)
+		(property "Value" "LED"
+			(at 69.85 157.7974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15762,7 +17265,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 69.85 154.94 0)
+			(at 72.39 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15771,7 +17274,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 154.94 0)
+			(at 72.39 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15780,7 +17283,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 69.85 154.94 0)
+			(at 72.39 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15789,7 +17292,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 154.94 0)
+			(at 72.39 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15822,7 +17325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c169021-b081-409a-be19-caf58b87ed94")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR39"
 			(at 168.91 180.34 0)
 			(effects
 				(font
@@ -15873,7 +17376,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR039")
+					(reference "#PWR39")
 					(unit 1)
 				)
 			)
@@ -15881,7 +17384,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 149.86 0)
+		(at 87.63 149.86 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15890,8 +17393,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1183a772-530a-4a61-bc77-68599142243f")
-		(property "Reference" "#PWR067"
-			(at 85.09 156.21 0)
+		(property "Reference" "#PWR67"
+			(at 87.63 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15900,7 +17403,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 154.94 0)
+			(at 87.63 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15909,7 +17412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 149.86 0)
+			(at 87.63 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15918,7 +17421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 149.86 0)
+			(at 87.63 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15927,7 +17430,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 149.86 0)
+			(at 87.63 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15941,7 +17444,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR067")
+					(reference "#PWR67")
 					(unit 1)
 				)
 			)
@@ -15958,7 +17461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12a40d06-a802-46aa-9391-f65c38293f25")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR68"
 			(at 336.55 72.39 0)
 			(effects
 				(font
@@ -16009,7 +17512,266 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR068")
+					(reference "#PWR68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:0402WGF4701TCE")
+		(at 276.86 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18717f29-2b80-448d-a148-b850fcb00b5b")
+		(property "Reference" "R40"
+			(at 278.638 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 278.638 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 325.374 199.644 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+			(at 283.21 207.264 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 283.21 197.358 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 283.21 202.184 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF4701TCE"
+			(at 283.21 204.724 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 283.21 214.884 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26643-0402WGF4701TCE/C25900"
+			(at 283.21 209.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF4701TCE?qs=e8oIoAS2J1Ro3%252BPyABtimg%3D%3D"
+			(at 283.21 212.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de1f40b7-0d36-4292-a2c9-6755d752b5c9")
+		)
+		(pin "2"
+			(uuid "309ebdc6-08aa-4c4e-9d94-fc24d9a3c094")
+		)
+		(instances
+			(project "FC-proto"
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:CL05B104KO5NNNC")
+		(at 101.6 143.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a163a0c-3534-48d6-adb0-dedcdbeaaf99")
+		(property "Reference" "C44"
+			(at 97.79 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 97.79 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 91.44 143.51 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+			(at 91.44 148.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R ±10% 0402 MLCC"
+			(at 91.44 146.05 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 91.44 138.43 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 91.44 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D&srsltid=AfmBOop41Lf4LY67xtjvM8CPV09QzDocsidDAJbiXF9h1fAf4wbrOh-Q"
+			(at 91.44 153.67 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?srsltid=AfmBOoooOOLvJqsnQleEQTMA9X0KpDLT1GueNWRvq8dvf84qUAq21gzV"
+			(at 91.44 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 91.44 156.21 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e46df55-2823-42bf-90ed-61478e9f6b77")
+		)
+		(pin "1"
+			(uuid "74d67fba-ae56-44cd-96e4-30e32184588b")
+		)
+		(instances
+			(project "FC-proto"
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -16026,7 +17788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20fdc71a-7bcb-4250-97c2-09cf3212db9c")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR85"
 			(at 255.27 72.39 0)
 			(effects
 				(font
@@ -16077,7 +17839,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR085")
+					(reference "#PWR85")
 					(unit 1)
 				)
 			)
@@ -16170,7 +17932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2385175e-1a61-4171-9cf7-4bba6d970027")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR16"
 			(at 303.53 185.42 0)
 			(effects
 				(font
@@ -16221,7 +17983,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR016")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -16238,7 +18000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26dfce74-7654-4c1d-8446-7fd4c75cb2e5")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR86"
 			(at 279.4 226.06 0)
 			(effects
 				(font
@@ -16289,7 +18051,135 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR086")
+					(reference "#PWR86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:0402WGF1002TCE")
+		(at 57.15 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "288d66c2-ff02-45b0-b28d-16bb52d411b6")
+		(property "Reference" "R32"
+			(at 54.61 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 54.61 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 105.664 159.004 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+			(at 63.5 166.624 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 63.5 156.718 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 63.5 161.544 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 63.5 164.084 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 63.5 174.244 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 63.5 169.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D"
+			(at 63.5 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10ab6f11-0a94-4591-b326-1e147363f231")
+		)
+		(pin "2"
+			(uuid "cdb3804f-1949-42e7-9c5c-59f9f5a90758")
+		)
+		(instances
+			(project ""
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -16446,7 +18336,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f873753-530c-4eaa-af62-45433e079403")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR55"
 			(at 41.91 59.69 0)
 			(effects
 				(font
@@ -16496,7 +18386,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR055")
+					(reference "#PWR55")
 					(unit 1)
 				)
 			)
@@ -16521,7 +18411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PAD_OUT"
+		(property "Value" "Conn_01x06"
 			(at 318.77 199.3899 0)
 			(effects
 				(font
@@ -16585,74 +18475,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 54.61 144.78 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "340775c9-38f2-43f5-b01a-e8cf797ac50a")
-		(property "Reference" "R31"
-			(at 51.054 143.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "43k"
-			(at 50.8 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 52.832 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 54.61 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "153430a7-ba66-44fb-bafe-2a30bb872e64")
-		)
-		(pin "1"
-			(uuid "24b299d6-bb41-4ad8-aa23-4fb54f0b8542")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 316.23 228.6 0)
 		(unit 1)
@@ -16671,7 +18493,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PAD_OUT"
+		(property "Value" "Conn_01x06"
 			(at 318.77 231.1399 0)
 			(effects
 				(font
@@ -16735,73 +18557,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 171.45 240.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37e99a92-94dc-46ee-99cf-1fe9a4666493")
-		(property "Reference" "R37"
-			(at 174.752 239.014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 175.006 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 173.228 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "826647ca-998e-49c7-b24a-91bbe21b042e")
-		)
-		(pin "1"
-			(uuid "2b227a3c-981c-45eb-a07c-7df643d2e8f8")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 377.19 105.41 0)
 		(mirror y)
@@ -16812,7 +18567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a352f1b-fd9f-4439-a14c-1e8d0fe92e19")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR72"
 			(at 377.19 111.76 0)
 			(effects
 				(font
@@ -16863,75 +18618,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 54.61 154.94 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ca12cc5-33b8-4615-8fee-57f983f59ac6")
-		(property "Reference" "R32"
-			(at 51.054 153.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "82k"
-			(at 50.8 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 52.832 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 54.61 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b3b33750-b520-40d4-9c4a-bad6cc7ac426")
-		)
-		(pin "1"
-			(uuid "6d70e604-ee87-4c1b-a88e-392a7993365b")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "R32")
+					(reference "#PWR72")
 					(unit 1)
 				)
 			)
@@ -16948,7 +18635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e916d45-d104-46a1-b362-5da192669579")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR45"
 			(at 336.55 54.61 0)
 			(effects
 				(font
@@ -16998,74 +18685,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 287.02 217.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41c79538-a2c5-4e71-9dd4-671bb66b7c06")
-		(property "Reference" "C49"
-			(at 287.02 213.614 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 287.02 221.488 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 290.83 216.2048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 287.02 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 287.02 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "414ec750-3c38-4d50-a8c0-6f560a0182b9")
-		)
-		(pin "2"
-			(uuid "0028838a-741a-4331-bff7-d6897f2c141e")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "C49")
+					(reference "#PWR45")
 					(unit 1)
 				)
 			)
@@ -17080,7 +18700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41e29e87-47d9-4037-b138-2c36983f96b8")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR58"
 			(at 269.24 223.52 0)
 			(effects
 				(font
@@ -17130,7 +18750,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR058")
+					(reference "#PWR58")
 					(unit 1)
 				)
 			)
@@ -17265,17 +18885,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 336.55 59.69 0)
-		(mirror y)
+		(lib_id "FC-SchemSymbolLib:0402WGF1002TCE")
+		(at 269.24 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4b8b5b72-eb4f-42a9-aa6f-aba29ce9fee2")
-		(property "Reference" "C47"
-			(at 332.74 58.4199 0)
+		(fields_autoplaced yes)
+		(uuid "43686ae4-eec6-4d7a-9fa6-b1acf261c47b")
+		(property "Reference" "R42"
+			(at 271.78 227.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17283,8 +18903,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 332.74 60.9599 0)
+		(property "Value" "10k"
+			(at 271.78 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17292,43 +18912,230 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 335.5848 63.5 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 317.754 232.664 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 336.55 59.69 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+			(at 275.59 240.284 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 336.55 59.69 0)
+		(property "Description" "10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 275.59 230.378 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "fe279898-d91b-4e47-93c7-05737fde957d")
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 275.59 235.204 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 275.59 237.744 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 275.59 247.904 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 275.59 242.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D"
+			(at 275.59 245.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "0dd9e13e-7174-4ab6-b2c1-e2e1f03fe2cd")
+			(uuid "0ec63563-56e5-463c-afac-4a466a88330f")
+		)
+		(pin "1"
+			(uuid "e1796e5d-fe36-499a-915a-4993df6d21c1")
 		)
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "C47")
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:0402WGF4701TCE")
+		(at 336.55 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4514413b-fa52-4e6c-99d2-9c40acfe94c6")
+		(property "Reference" "R38"
+			(at 338.328 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 338.328 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 385.064 120.904 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+			(at 342.9 128.524 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 342.9 118.618 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 342.9 123.444 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF4701TCE"
+			(at 342.9 125.984 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 342.9 136.144 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26643-0402WGF4701TCE/C25900"
+			(at 342.9 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF4701TCE?qs=e8oIoAS2J1Ro3%252BPyABtimg%3D%3D"
+			(at 342.9 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36665788-a5ab-426a-9b4e-2aa660e054ed")
+		)
+		(pin "2"
+			(uuid "c42b2f38-8949-4735-81f0-b6b9683a45ab")
+		)
+		(instances
+			(project ""
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -17343,7 +19150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d5c37cf-0ced-4dba-8c46-cb62b52b414d")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR89"
 			(at 276.86 193.04 0)
 			(effects
 				(font
@@ -17393,7 +19200,135 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR089")
+					(reference "#PWR89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:0402WGF4701TCE")
+		(at 285.75 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "508a1a81-a798-4b06-ba6d-595f98b8c473")
+		(property "Reference" "R41"
+			(at 287.528 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 287.528 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 334.264 199.644 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+			(at 292.1 207.264 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 292.1 197.358 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 292.1 202.184 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF4701TCE"
+			(at 292.1 204.724 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 292.1 214.884 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26643-0402WGF4701TCE/C25900"
+			(at 292.1 209.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF4701TCE?qs=e8oIoAS2J1Ro3%252BPyABtimg%3D%3D"
+			(at 292.1 212.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82b838f1-9f9a-4948-a3ff-467e6a61f920")
+		)
+		(pin "2"
+			(uuid "59f9a4ad-3c50-41bd-9e89-2e998e429de7")
+		)
+		(instances
+			(project "FC-proto"
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -17410,7 +19345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5490eef4-7372-4cd0-8150-5935fcf0dcc4")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR95"
 			(at 342.9 242.57 0)
 			(effects
 				(font
@@ -17461,7 +19396,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR095")
+					(reference "#PWR95")
 					(unit 1)
 				)
 			)
@@ -17469,7 +19404,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 69.85 134.62 0)
+		(at 72.39 134.62 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17478,8 +19413,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60fc4427-e64a-4693-86f3-8a5400acc208")
-		(property "Reference" "#FLG02"
-			(at 69.85 132.715 0)
+		(property "Reference" "#FLG2"
+			(at 72.39 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17488,7 +19423,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 69.85 129.54 0)
+			(at 72.39 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17496,7 +19431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 134.62 0)
+			(at 72.39 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17505,7 +19440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 134.62 0)
+			(at 72.39 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17514,7 +19449,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 69.85 134.62 0)
+			(at 72.39 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17528,74 +19463,7 @@
 		(instances
 			(project ""
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 269.24 228.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "629dd5a7-62fb-4046-ae77-2e9f4048c1e1")
-		(property "Reference" "R42"
-			(at 272.796 227.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 272.796 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 271.018 228.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 269.24 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "49c05732-11c3-4a6b-b28f-27b85146a196")
-		)
-		(pin "1"
-			(uuid "c97def35-37da-4bae-8331-309bb1f30310")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "R42")
+					(reference "#FLG2")
 					(unit 1)
 				)
 			)
@@ -17619,7 +19487,7 @@
 				)
 			)
 		)
-		(property "Value" "MF-MSMF050-2"
+		(property "Value" "Polyfuse"
 			(at 111.76 134.112 90)
 			(effects
 				(font
@@ -17681,7 +19549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "654c9f21-db27-452d-979e-621fbab85f8c")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR84"
 			(at 336.55 104.14 0)
 			(effects
 				(font
@@ -17732,7 +19600,252 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR084")
+					(reference "#PWR84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:CL10A106MA8NRNC")
+		(at 287.02 217.17 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68af279e-03bd-4c31-ba08-97ca415371cb")
+		(property "Reference" "C49"
+			(at 289.052 213.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 288.798 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 287.02 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+			(at 281.94 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 25V X5R ±20% 0603"
+			(at 284.48 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 292.1 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A106MA8NRNC"
+			(at 289.56 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 274.32 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446"
+			(at 276.86 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527?s=N4IgTCBcDaIMIBkCMAGAgqgbAWTQDgDkAlAuEAXQF8g"
+			(at 279.4 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e28b6bc-c0c7-46e5-af6a-97fce5d6f751")
+		)
+		(pin "1"
+			(uuid "a7ec5cfe-7f64-45fd-8305-15905bff5934")
+		)
+		(instances
+			(project "FC-proto"
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:CL05A105KA5NQNC")
+		(at 87.63 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68dcffc7-ca06-4687-b838-845690d7137f")
+		(property "Reference" "C43"
+			(at 83.82 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 83.82 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 97.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+			(at 97.79 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uF 25V X5R ±10% 0402"
+			(at 97.79 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 97.79 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 97.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 97.79 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+			(at 97.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3887103?s=N4IgTCBcDaIMIBkAMBWAggRlQaTSgcgIr5wgC6AvkA"
+			(at 97.79 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24f05a5b-0257-4cb9-9eb3-b717a29f8baa")
+		)
+		(pin "1"
+			(uuid "294a98db-5f5c-487e-b75f-fa52d340eaf9")
+		)
+		(instances
+			(project ""
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -17749,7 +19862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68fb91b6-3cef-4d0f-92e8-41ee21ca520c")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR91"
 			(at 255.27 91.44 0)
 			(effects
 				(font
@@ -17799,144 +19912,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 336.55 91.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7142bcac-d1f9-410f-b581-6ffe1a036979")
-		(property "Reference" "C48"
-			(at 332.74 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 332.74 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 335.5848 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 336.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 336.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "230c0660-b545-4944-b52f-cc241f292b21")
-		)
-		(pin "2"
-			(uuid "f9fa1530-bf39-45c3-a532-105a334899c9")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 276.86 195.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "724d4896-025e-4557-80df-1193715fae97")
-		(property "Reference" "R40"
-			(at 280.67 194.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 280.924 196.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 278.638 195.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 276.86 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "740a1188-38b9-4df9-ac7f-b02ec94bb3af")
-		)
-		(pin "1"
-			(uuid "bab3bbe2-1736-4cbe-9640-9c382320cfad")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "R40")
+					(reference "#PWR91")
 					(unit 1)
 				)
 			)
@@ -17944,7 +19920,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 54.61 134.62 0)
+		(at 57.15 134.62 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17953,8 +19929,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75523d55-680c-4a4e-88ed-40a5d0d79185")
-		(property "Reference" "#PWR057"
-			(at 54.61 138.43 0)
+		(property "Reference" "#PWR57"
+			(at 57.15 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17963,7 +19939,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 54.61 129.54 0)
+			(at 57.15 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17971,7 +19947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 134.62 0)
+			(at 57.15 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17980,7 +19956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 134.62 0)
+			(at 57.15 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17989,7 +19965,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 54.61 134.62 0)
+			(at 57.15 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18003,7 +19979,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR057")
+					(reference "#PWR57")
 					(unit 1)
 				)
 			)
@@ -18020,7 +19996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75e9c54d-a540-4e4f-88d7-2c5026cc788d")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR71"
 			(at 377.19 80.01 0)
 			(effects
 				(font
@@ -18071,7 +20047,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR071")
+					(reference "#PWR71")
 					(unit 1)
 				)
 			)
@@ -18088,7 +20064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76147898-07be-47f1-ba13-4efe3b33459e")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR92"
 			(at 255.27 109.22 0)
 			(effects
 				(font
@@ -18139,7 +20115,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR092")
+					(reference "#PWR92")
 					(unit 1)
 				)
 			)
@@ -18147,7 +20123,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 149.86 0)
+		(at 101.6 149.86 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18156,8 +20132,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7971ea78-1426-4601-9bdf-f047879bb49b")
-		(property "Reference" "#PWR044"
-			(at 99.06 156.21 0)
+		(property "Reference" "#PWR44"
+			(at 101.6 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18166,7 +20142,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 154.94 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18175,7 +20151,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 149.86 0)
+			(at 101.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18184,7 +20160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 149.86 0)
+			(at 101.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18193,7 +20169,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 149.86 0)
+			(at 101.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18207,7 +20183,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR044")
+					(reference "#PWR44")
 					(unit 1)
 				)
 			)
@@ -18224,7 +20200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aeef664-078f-47ba-8cc4-66b53b24b0c9")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR48"
 			(at 358.14 106.68 0)
 			(effects
 				(font
@@ -18275,7 +20251,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR048")
+					(reference "#PWR48")
 					(unit 1)
 				)
 			)
@@ -18416,68 +20392,385 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 176.53 163.83 0)
-		(mirror x)
+		(lib_id "FC-SchemSymbolLib:0402WGF4701TCE")
+		(at 345.44 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7e6f5da4-e2ef-4e97-bf5b-fd3cb246ccae")
-		(property "Reference" "R35"
-			(at 180.34 162.814 0)
+		(uuid "7f654fdf-a2a4-465c-8e65-63cfaea93800")
+		(property "Reference" "R39"
+			(at 347.218 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 180.34 165.1 0)
+		(property "Value" "4.7k"
+			(at 347.218 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 174.752 163.83 90)
+			(at 393.954 120.904 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 176.53 163.83 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+			(at 351.79 128.524 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 176.53 163.83 0)
+		(property "Description" "4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 351.79 118.618 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 351.79 123.444 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF4701TCE"
+			(at 351.79 125.984 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 351.79 136.144 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26643-0402WGF4701TCE/C25900"
+			(at 351.79 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF4701TCE?qs=e8oIoAS2J1Ro3%252BPyABtimg%3D%3D"
+			(at 351.79 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d6ba3c1-3cdd-45cc-831c-28d31afdc3f4")
+		)
+		(pin "2"
+			(uuid "4cf949e9-0704-4c07-a754-46beeca032ec")
+		)
+		(instances
+			(project "FC-proto"
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:0402WGF5101TCE")
+		(at 176.53 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fd59aca-86d8-4815-86ca-2b50a7cff712")
+		(property "Reference" "R35"
+			(at 178.054 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 178.054 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.044 167.894 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+			(at 182.88 175.514 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 182.88 165.608 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 182.88 170.434 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
+			(at 182.88 172.974 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 182.88 183.134 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
+			(at 182.88 178.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF5101TCE?qs=e8oIoAS2J1TXcMSJPHU1Ew%3D%3D"
+			(at 182.88 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "38a2d081-06f1-454e-a270-ce5fd3169d26")
+			(uuid "729e999e-293b-4d30-822d-bb432a53b6c9")
 		)
 		(pin "1"
-			(uuid "9fe9fb67-b7c4-4d90-9286-b6e185929365")
+			(uuid "edfd7f42-d2a7-44b4-b909-6cb80cf9e2e4")
 		)
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:0402WGF1002TCE")
+		(at 171.45 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81cb1d59-3449-4281-8e86-b11bd43957ce")
+		(property "Reference" "R37"
+			(at 173.99 238.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 173.99 241.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 219.964 244.094 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+			(at 177.8 251.714 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 177.8 241.808 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 177.8 246.634 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 177.8 249.174 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 177.8 259.334 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 177.8 254.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D"
+			(at 177.8 256.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c0c1c34-89b8-4cf6-bd1f-622bcbb261ce")
+		)
+		(pin "1"
+			(uuid "f341ae35-fa08-4836-8210-ed422dd73727")
+		)
+		(instances
+			(project ""
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -18494,7 +20787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "840820f8-d78d-4d9b-a3c1-0bf0a55a7c4c")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR96"
 			(at 120.65 156.21 0)
 			(effects
 				(font
@@ -18545,7 +20838,265 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR096")
+					(reference "#PWR96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:0402WGF5102TCE")
+		(at 127 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "852f0688-515c-4d89-9760-df4cc52303b9")
+		(property "Reference" "R30"
+			(at 129.54 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "51k"
+			(at 129.54 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 175.514 77.724 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+			(at 133.35 85.344 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "51kΩ 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 133.35 75.438 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 133.35 80.264 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF5102TCE"
+			(at 133.35 82.804 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25794"
+			(at 133.35 92.964 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26537-0402WGF5102TCE/C25794"
+			(at 133.35 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF5102TCE?qs=e8oIoAS2J1SY1QM%252BuSu6Tw%3D%3D"
+			(at 133.35 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bae4e26e-df74-4c6b-a37a-3892057bfdcc")
+		)
+		(pin "1"
+			(uuid "e40a7491-dfb7-494f-9d3e-bd27c9f427f0")
+		)
+		(instances
+			(project "FC-proto"
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:0402WGF5101TCE")
+		(at 57.15 144.78 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85798769-fc95-4d07-95e9-77f632ab9545")
+		(property "Reference" "R31"
+			(at 54.61 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 54.61 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 8.636 148.844 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+			(at 50.8 156.464 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 50.8 146.558 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 50.8 151.384 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
+			(at 50.8 153.924 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 50.8 164.084 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
+			(at 50.8 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF5101TCE?qs=e8oIoAS2J1TXcMSJPHU1Ew%3D%3D"
+			(at 50.8 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "825e409f-7788-4b03-9b73-10e9e7fc5b30")
+		)
+		(pin "1"
+			(uuid "d1c2f9ed-0bcf-4639-9844-aa356b5d5d41")
+		)
+		(instances
+			(project ""
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -18560,7 +21111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8763cdeb-32cb-40ea-b4d1-1423e62ac232")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR62"
 			(at 45.72 223.52 0)
 			(effects
 				(font
@@ -18610,7 +21161,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR062")
+					(reference "#PWR62")
 					(unit 1)
 				)
 			)
@@ -18627,7 +21178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "879e3fd7-000f-4672-b293-d0acaf337245")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR61"
 			(at 287.02 243.84 0)
 			(effects
 				(font
@@ -18678,7 +21229,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR061")
+					(reference "#PWR61")
 					(unit 1)
 				)
 			)
@@ -18695,7 +21246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f7cbbf6-d525-4bc2-8657-a4c350432658")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR47"
 			(at 336.55 86.36 0)
 			(effects
 				(font
@@ -18745,7 +21296,129 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR047")
+					(reference "#PWR47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:CL05A105KA5NQNC")
+		(at 336.55 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90b843ab-a070-48da-b097-9df2bd055206")
+		(property "Reference" "C47"
+			(at 332.74 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 332.74 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+			(at 346.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uF 25V X5R ±10% 0402"
+			(at 346.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 346.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 346.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 346.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+			(at 346.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3887103?s=N4IgTCBcDaIMIBkAMBWAggRlQaTSgcgIr5wgC6AvkA"
+			(at 346.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b3927cf-ab12-41b7-9e8b-613ad2cea323")
+		)
+		(pin "1"
+			(uuid "6d1ad8de-27fb-49d8-8a56-8d4f2cce422d")
+		)
+		(instances
+			(project "FC-proto"
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -18762,7 +21435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91d60cd8-5e2b-49dc-87ef-5891299321be")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR46"
 			(at 358.14 74.93 0)
 			(effects
 				(font
@@ -18813,77 +21486,258 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR046")
+					(reference "#PWR46")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 255.27 96.52 0)
-		(mirror y)
+		(lib_id "FC-SchemSymbolLib:CL05B104KO5NNNC")
+		(at 118.11 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "99e788a1-ab97-4188-a246-eb9af3d348db")
-		(property "Reference" "C46"
-			(at 251.46 95.2499 0)
+		(uuid "920f3895-f14b-4e3e-a17d-4737dfd5f8aa")
+		(property "Reference" "C42"
+			(at 117.856 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 251.46 97.7899 0)
+		(property "Value" "100n"
+			(at 118.364 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 254.3048 100.33 0)
+			(at 118.11 74.93 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 255.27 96.52 0)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+			(at 123.19 74.93 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 255.27 96.52 0)
+		(property "Description" "100nF 16V X7R ±10% 0402 MLCC"
+			(at 120.65 74.93 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6224ff86-b995-4b46-b58a-32a678c9dd5c")
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 113.03 74.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 115.57 74.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D&srsltid=AfmBOop41Lf4LY67xtjvM8CPV09QzDocsidDAJbiXF9h1fAf4wbrOh-Q"
+			(at 128.27 74.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?srsltid=AfmBOoooOOLvJqsnQleEQTMA9X0KpDLT1GueNWRvq8dvf84qUAq21gzV"
+			(at 125.73 74.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 130.81 74.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "f63e921c-4b9f-4b0d-a2f1-4807b2edff6f")
+			(uuid "f45dbba3-fe0b-4ad4-92db-25b8226c1b37")
+		)
+		(pin "1"
+			(uuid "28895931-0881-4105-9ffa-135c51c9930f")
 		)
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "C46")
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:CL10A106MA8NRNC")
+		(at 336.55 91.44 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98288554-c882-40f2-b2a1-46c8420f856b")
+		(property "Reference" "C48"
+			(at 332.74 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 332.74 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 346.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+			(at 346.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 25V X5R ±20% 0603"
+			(at 346.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 346.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A106MA8NRNC"
+			(at 346.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 346.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446"
+			(at 346.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527?s=N4IgTCBcDaIMIBkCMAGAgqgbAWTQDgDkAlAuEAXQF8g"
+			(at 346.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "411d5fb8-9866-409f-862e-ac3d9da2574e")
+		)
+		(pin "1"
+			(uuid "578c19b0-795f-487f-8c5e-c08ece793bc1")
+		)
+		(instances
+			(project "FC-proto"
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -18899,7 +21753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99ef0d7d-821c-4b33-ad53-24a5309172d1")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR81"
 			(at 200.66 185.42 0)
 			(effects
 				(font
@@ -18950,75 +21804,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 163.83 233.68 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d28ab5f-6800-4199-9c23-0625bb8f44db")
-		(property "Reference" "R36"
-			(at 163.83 231.394 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 163.83 236.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 163.83 235.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 163.83 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dbd9f910-3805-4a70-b0de-598174fd46ce")
-		)
-		(pin "1"
-			(uuid "45dbe0fb-e5c9-4438-afa9-932751f6e574")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "R36")
+					(reference "#PWR81")
 					(unit 1)
 				)
 			)
@@ -19169,7 +21955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0dc1772-4f4d-41b1-b47d-b177a8a3cb8e")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR94"
 			(at 342.9 201.93 0)
 			(effects
 				(font
@@ -19220,7 +22006,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR094")
+					(reference "#PWR94")
 					(unit 1)
 				)
 			)
@@ -19245,7 +22031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PAD_OUT_Mini"
+		(property "Value" "Conn_01x05"
 			(at 373.38 229.8699 0)
 			(effects
 				(font
@@ -19315,7 +22101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4cb3db0-b347-47e3-ab3b-082479a61cc2")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR54"
 			(at 109.22 93.98 0)
 			(effects
 				(font
@@ -19366,7 +22152,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR054")
+					(reference "#PWR54")
 					(unit 1)
 				)
 			)
@@ -19383,7 +22169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6e82442-409d-4d83-a542-02e75c9b1e6d")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR49"
 			(at 358.14 121.92 0)
 			(effects
 				(font
@@ -19433,7 +22219,135 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR049")
+					(reference "#PWR49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:0402WGF5101TCE")
+		(at 168.91 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7312299-eee4-41bd-999d-32991e947353")
+		(property "Reference" "R34"
+			(at 170.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 170.18 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 217.424 167.894 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+			(at 175.26 175.514 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 175.26 165.608 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 175.26 170.434 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
+			(at 175.26 172.974 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 175.26 183.134 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
+			(at 175.26 178.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF5101TCE?qs=e8oIoAS2J1TXcMSJPHU1Ew%3D%3D"
+			(at 175.26 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "664ecb28-ab57-45dd-b16b-dc2cd9ee1f2b")
+		)
+		(pin "1"
+			(uuid "4257165c-0e10-4b5a-979f-23c68e95cb87")
+		)
+		(instances
+			(project "FC-proto"
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -19584,7 +22498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a874bd16-58a2-4cf0-a425-95522474e154")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR90"
 			(at 295.91 111.76 0)
 			(effects
 				(font
@@ -19635,7 +22549,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR090")
+					(reference "#PWR90")
 					(unit 1)
 				)
 			)
@@ -19652,7 +22566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b018e5ff-da25-4278-a453-fd291ce63335")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR59"
 			(at 287.02 236.22 0)
 			(effects
 				(font
@@ -19703,7 +22617,129 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR059")
+					(reference "#PWR59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC-SchemSymbolLib:CL05A105KA5NQNC")
+		(at 255.27 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b325bcda-edec-42e2-babf-8ac1301e2a51")
+		(property "Reference" "C45"
+			(at 251.46 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 251.46 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 265.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+			(at 265.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uF 25V X5R ±10% 0402"
+			(at 265.43 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 265.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 265.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 265.43 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+			(at 265.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3887103?s=N4IgTCBcDaIMIBkAMBWAggRlQaTSgcgIr5wgC6AvkA"
+			(at 265.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9928bc21-d095-4d1d-a336-a8a7dbe52ae8")
+		)
+		(pin "1"
+			(uuid "64bdb937-0218-407a-b8e2-68f671bcd72f")
+		)
+		(instances
+			(project "FC-proto"
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -19865,74 +22901,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 69.85 144.78 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd42d6f1-cdb2-4050-8509-9d93ac59d594")
-		(property "Reference" "R33"
-			(at 66.294 143.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "250"
-			(at 66.04 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.072 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 69.85 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "045b3e52-45fa-401f-84b0-b52ad7af0306")
-		)
-		(pin "1"
-			(uuid "39793358-51ca-42db-b53b-6dfb846dd3e3")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 181.61 248.92 0)
 		(mirror y)
@@ -19943,7 +22911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd60d66e-c439-4168-898e-b388a5d4a8cd")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR75"
 			(at 181.61 255.27 0)
 			(effects
 				(font
@@ -19994,7 +22962,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR075")
+					(reference "#PWR75")
 					(unit 1)
 				)
 			)
@@ -20083,7 +23051,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 162.56 0)
+		(at 57.15 162.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20092,8 +23060,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "becd4ddf-18c0-4d37-8ea5-84bb1dd62140")
-		(property "Reference" "#PWR087"
-			(at 54.61 168.91 0)
+		(property "Reference" "#PWR87"
+			(at 57.15 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20102,7 +23070,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 167.64 0)
+			(at 57.15 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20111,7 +23079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 162.56 0)
+			(at 57.15 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20120,7 +23088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 162.56 0)
+			(at 57.15 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20129,7 +23097,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 162.56 0)
+			(at 57.15 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20143,7 +23111,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR087")
+					(reference "#PWR87")
 					(unit 1)
 				)
 			)
@@ -20158,7 +23126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bedb284b-5fec-42b4-8325-a21a30fc7604")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR56"
 			(at 127 72.39 0)
 			(effects
 				(font
@@ -20208,7 +23176,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR056")
+					(reference "#PWR56")
 					(unit 1)
 				)
 			)
@@ -20216,7 +23184,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 85.09 135.89 0)
+		(at 87.63 135.89 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20225,7 +23193,7 @@
 		(dnp no)
 		(uuid "ca900ce3-7a4a-4b84-a1f3-f82017a38d8a")
 		(property "Reference" "TP4"
-			(at 86.868 130.048 0)
+			(at 89.408 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20233,8 +23201,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint Pad"
-			(at 92.202 128.016 0)
+		(property "Value" "TestPoint"
+			(at 94.742 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20243,7 +23211,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 80.01 135.89 0)
+			(at 82.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20252,7 +23220,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 135.89 0)
+			(at 82.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20261,7 +23229,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 85.09 135.89 0)
+			(at 87.63 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20276,73 +23244,6 @@
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 285.75 195.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d113286f-5c73-4eba-911d-62324c2947f6")
-		(property "Reference" "R41"
-			(at 289.56 194.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 289.814 196.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 287.528 195.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 285.75 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 285.75 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ea512543-037a-4fa0-944c-f1cdb7caf029")
-		)
-		(pin "1"
-			(uuid "ddf9cc2d-037e-4b01-a59e-ead0dcca6b7d")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -20366,7 +23267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSD05DYFR"
+		(property "Value" "ESD5Zxx"
 			(at 108.712 146.05 90)
 			(effects
 				(font
@@ -20375,7 +23276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FC-FootprintLib:TVS_SOD2_DYF_TEX"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 116.205 143.51 0)
 			(effects
 				(font
@@ -20556,7 +23457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4debf2f-8c57-4529-8c7e-3e513e903848")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 295.91 80.01 0)
 			(effects
 				(font
@@ -20607,7 +23508,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR07")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -20624,7 +23525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d56abe56-7b35-47ce-8974-23268e8024d9")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR50"
 			(at 358.14 137.16 0)
 			(effects
 				(font
@@ -20675,77 +23576,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 41.91 72.39 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d67c4f85-6e9f-480a-841e-d82df01a7620")
-		(property "Reference" "C41"
-			(at 38.1 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 38.1 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 40.9448 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 41.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e451091b-8f90-449f-90db-93f6f1024440")
-		)
-		(pin "2"
-			(uuid "7638b14f-4945-486f-9787-8ea69622c0e3")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "C41")
+					(reference "#PWR50")
 					(unit 1)
 				)
 			)
@@ -20762,7 +23593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7bb5ac1-7fa4-4d18-b625-bce56b7126f6")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR17"
 			(at 295.91 195.58 0)
 			(effects
 				(font
@@ -20812,144 +23643,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 99.06 143.51 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd494d86-22ba-4db4-97e7-a10b63b32cc2")
-		(property "Reference" "C44"
-			(at 95.25 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 95.25 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 98.0948 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8354aeb1-2cd7-449f-861d-0128a2a44c17")
-		)
-		(pin "2"
-			(uuid "85b8640f-0dcc-4be1-a5fe-9f1601c8523f")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 168.91 163.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "deca2191-dcc4-4b42-873e-5052932c8adf")
-		(property "Reference" "R34"
-			(at 172.72 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 172.974 164.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 170.688 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "de94c156-bf6e-4c06-8304-6892f13ee774")
-		)
-		(pin "1"
-			(uuid "1173c8c6-f872-4f0d-8655-e5b4c3771b9b")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "R34")
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
@@ -20965,7 +23659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfc0d9ee-f3c1-485b-b9f2-eef41e76f660")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR60"
 			(at 295.91 219.71 0)
 			(effects
 				(font
@@ -21015,7 +23709,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR060")
+					(reference "#PWR60")
 					(unit 1)
 				)
 			)
@@ -21031,7 +23725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfe34f36-8d70-4e3a-9b3a-fd6e123e5337")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR66"
 			(at 45.72 254 0)
 			(effects
 				(font
@@ -21082,7 +23776,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR066")
+					(reference "#PWR66")
 					(unit 1)
 				)
 			)
@@ -21098,7 +23792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e17bdc84-aafb-4e0c-b7e7-e1442f43561a")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR40"
 			(at 148.59 173.99 0)
 			(effects
 				(font
@@ -21149,141 +23843,252 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR040")
+					(reference "#PWR40")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 336.55 116.84 180)
+		(lib_id "FC-SchemSymbolLib:CL10A106MA8NRNC")
+		(at 41.91 72.39 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e34ab2c8-be1e-4926-8ee0-407002959d7e")
-		(property "Reference" "R38"
-			(at 340.36 115.824 0)
+		(uuid "e23ae063-a157-4d20-9bd0-10fed3dd7b7b")
+		(property "Reference" "C41"
+			(at 38.1 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 340.614 117.856 0)
+		(property "Value" "10u"
+			(at 38.1 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 338.328 116.84 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 52.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 336.55 116.84 0)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 336.55 116.84 0)
+		(property "Description" "10uF 25V X5R ±20% 0603"
+			(at 52.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A106MA8NRNC"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446"
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527?s=N4IgTCBcDaIMIBkCMAGAgqgbAWTQDgDkAlAuEAXQF8g"
+			(at 52.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "97347ac0-08ca-420e-b730-3314510de230")
+			(uuid "dadb9de5-8e20-4a45-a08a-c604d4655314")
 		)
 		(pin "1"
-			(uuid "df6583ea-bae5-4430-93d7-0ecbe9dfbdf9")
+			(uuid "82468e43-bfd5-427c-82f6-6afb99b62b96")
 		)
 		(instances
-			(project "FC-proto"
+			(project ""
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "R38")
+					(reference "C41")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 345.44 116.84 180)
+		(lib_id "FC-SchemSymbolLib:CL05A105KA5NQNC")
+		(at 255.27 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e413f483-e1c0-49cc-9738-4d20ccf44f28")
-		(property "Reference" "R39"
-			(at 349.25 115.824 0)
+		(uuid "e2f4e9be-da92-4eaa-826c-8adb51b9dc1c")
+		(property "Reference" "C46"
+			(at 251.46 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 349.504 117.856 0)
+		(property "Value" "1u"
+			(at 251.46 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 347.218 116.84 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 265.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 345.44 116.84 0)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+			(at 265.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 345.44 116.84 0)
+		(property "Description" "1uF 25V X5R ±10% 0402"
+			(at 265.43 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 265.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 265.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 265.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+			(at 265.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3887103?s=N4IgTCBcDaIMIBkAMBWAggRlQaTSgcgIr5wgC6AvkA"
+			(at 265.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "71d16c4d-4f47-41eb-a7c1-cbf7c33c6305")
+			(uuid "4c84ee99-1767-4e7c-9d71-df95bfb35f71")
 		)
 		(pin "1"
-			(uuid "a78833b7-cedd-4dd6-b44b-c75eabf2b08b")
+			(uuid "2400082a-7637-47b1-8067-14ea2861639a")
 		)
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "R39")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -21298,7 +24103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e45abdb2-e994-4b0b-a0dc-6ef49f6ac6ff")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR88"
 			(at 336.55 114.3 0)
 			(effects
 				(font
@@ -21348,7 +24153,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR088")
+					(reference "#PWR88")
 					(unit 1)
 				)
 			)
@@ -21364,7 +24169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e71d0a58-48b6-4134-9974-1f93048f3d2a")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR53"
 			(at 41.91 93.98 0)
 			(effects
 				(font
@@ -21415,144 +24220,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 85.09 143.51 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e94dd7c2-dded-498f-b98d-3b5eb68f1fe3")
-		(property "Reference" "C43"
-			(at 81.28 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 81.28 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 84.1248 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 85.09 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9d00c22-0cee-4851-9d88-41fe3a16e7d4")
-		)
-		(pin "2"
-			(uuid "917cfaa3-ac0c-446c-a506-68d58cc3bbc9")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 127 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed388932-e972-41f1-8e26-655d320b6954")
-		(property "Reference" "R30"
-			(at 130.556 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "56k"
-			(at 130.556 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 128.778 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 127 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "28d58c28-5c41-4b49-a2d7-d6b506c843a0")
-		)
-		(pin "1"
-			(uuid "77953099-53ba-4a41-8357-de9d33a1694b")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "R30")
+					(reference "#PWR53")
 					(unit 1)
 				)
 			)
@@ -21569,7 +24237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef00079d-16bf-4913-af3f-3d7c0f37f5a7")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR73"
 			(at 377.19 142.24 0)
 			(effects
 				(font
@@ -21620,7 +24288,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR073")
+					(reference "#PWR73")
 					(unit 1)
 				)
 			)
@@ -21645,7 +24313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PAD_OUT_Mini"
+		(property "Value" "Conn_01x05"
 			(at 373.38 198.1199 0)
 			(effects
 				(font
@@ -21700,73 +24368,6 @@
 			(project ""
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
 					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 118.11 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f27c4a9a-e8d3-4b1d-b0c6-bd9955cdfc17")
-		(property "Reference" "C42"
-			(at 118.11 81.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 118.11 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 121.92 84.1248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 118.11 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f85073e-f476-4011-87d3-3bc52a880001")
-		)
-		(pin "2"
-			(uuid "9907515f-8934-401f-b90d-b843bae5aff0")
-		)
-		(instances
-			(project "FC-proto"
-				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -21843,6 +24444,134 @@
 		)
 	)
 	(symbol
+		(lib_id "FC-SchemSymbolLib:0402WGF2200TCE")
+		(at 72.39 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc4102ff-a617-4ba8-8ce6-3d1a10e2a096")
+		(property "Reference" "R33"
+			(at 69.85 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220"
+			(at 69.85 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 120.904 148.844 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+			(at 78.74 156.464 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 78.74 146.558 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 78.74 151.384 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF2200TCE"
+			(at 78.74 153.924 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25091"
+			(at 78.74 164.084 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/25834-0402WGF2200TCE/C25091"
+			(at 78.74 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGF2200TCE?qs=e8oIoAS2J1RP9vRYNvZ%252BDQ%3D%3D"
+			(at 78.74 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3a8d605-a5f5-44c4-9a94-fa19a53a71c9")
+		)
+		(pin "2"
+			(uuid "2da52bed-c0fe-435b-9f67-5045b6a0834d")
+		)
+		(instances
+			(project ""
+				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 276.86 100.33 0)
 		(mirror y)
@@ -21853,7 +24582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd1f5f08-ff1f-4cdd-9594-56ef9ed85a95")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR93"
 			(at 276.86 106.68 0)
 			(effects
 				(font
@@ -21904,7 +24633,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR093")
+					(reference "#PWR93")
 					(unit 1)
 				)
 			)
@@ -21921,7 +24650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdd96916-7b24-4df4-b4e6-762ecc4e68d3")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR76"
 			(at 276.86 74.93 0)
 			(effects
 				(font
@@ -21972,7 +24701,7 @@
 		(instances
 			(project "FC-proto"
 				(path "/7c755a5f-eb99-47bb-9fe3-479fbe88de95/69fae52d-b493-4731-a879-b79fe020818b"
-					(reference "#PWR076")
+					(reference "#PWR76")
 					(unit 1)
 				)
 			)

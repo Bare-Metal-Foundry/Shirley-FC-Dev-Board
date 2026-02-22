@@ -15,4 +15,5 @@
   (lib (name "TPD4E05U06-import")(type "KiCad")(uri "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/TPD4E05U06DQAR/KiCADv6/2025-11-18_10-21-21.kicad_sym")(options "")(descr ""))
   (lib (name "MCP2562FD-E-SN-import")(type "KiCad")(uri "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/MCP2562FD-E-SN/KiCADv6/2025-11-19_11-15-43.kicad_sym")(options "")(descr ""))
   (lib (name "FC-SchemSymbolLib")(type "KiCad")(uri "${KIPRJMOD}/FC-SchemSymbolLib.kicad_sym")(options "")(descr ""))
+  (lib (name "ESC-SchemSymLib")(type "KiCad")(uri "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Kururugi-ESC-Dev-Board/hardware/KiCad/ESC_v1.0/ESC-SchemSymLib.kicad_sym")(options "")(descr ""))
 )
