@@ -1,4 +1,4 @@
-26752465744299896
+26754237682355228
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61396,6 +61396,13 @@ SM06B-GHS-TB
 0
 8
 8
+FC-FootprintLib
+DFN1610-2
+https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4
+Diode SOD923
+0
+2
+2
 FC-FootprintLib
 GCT_USB4105-GF-A
 
