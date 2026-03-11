@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.254,
-          "height": 0.508,
-          "width": 0.508
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 0.62
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -629,7 +629,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../exports/manufacturing/",
+      "plot": "../../../exports/manufacturing/FC-Dev-Board-v0.9/",
       "pos_files": "../../../exports/manufacturing/",
       "specctra_dsn": "",
       "step": "",
@@ -677,19 +677,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -701,7 +701,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -743,7 +743,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
