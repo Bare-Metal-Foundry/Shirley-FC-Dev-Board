@@ -949,7 +949,7 @@
 		(path "/69fae52d-b493-4731-a879-b79fe020818b/bd622ba6-9990-46d7-8ff3-8b599661a776")
 		(sheetname "/Interface Section/")
 		(sheetfile "FC-interfaces_sch.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.905 1.27)
 			(end -1.905 0.635)
@@ -3362,7 +3362,6 @@
 				)
 			)
 		)
-		(path "/3bab5f69-2d92-4f03-8a26-14e20b4ca623/c08f7a5b-61ae-4587-9b44-dc7d1686806e")
 		(sheetname "/Sensor Section/")
 		(sheetfile "FC-Sensors.kicad_sch")
 		(attr smd)
@@ -14085,7 +14084,7 @@
 		(path "/4169dc52-8c0e-4d5a-b4ac-98cf69326a39/4c4ad8ea-7144-4d45-86fe-48f59889e819")
 		(sheetname "/Power Section/")
 		(sheetfile "FC-power-section.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -16205,7 +16204,7 @@
 		(path "/4169dc52-8c0e-4d5a-b4ac-98cf69326a39/6ffd3cb0-09ba-465e-8293-63fe5106d05c")
 		(sheetname "/Power Section/")
 		(sheetfile "FC-power-section.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -16321,7 +16320,7 @@
 		(path "/69fae52d-b493-4731-a879-b79fe020818b/ca900ce3-7a4a-4b84-a1f3-f82017a38d8a")
 		(sheetname "/Interface Section/")
 		(sheetfile "FC-interfaces_sch.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -33531,7 +33530,7 @@
 		(path "/4169dc52-8c0e-4d5a-b4ac-98cf69326a39/42410428-00fc-4e23-9840-4fd237b92c22")
 		(sheetname "/Power Section/")
 		(sheetfile "FC-power-section.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -35850,7 +35849,7 @@
 		(path "/69fae52d-b493-4731-a879-b79fe020818b/a4088ba0-4626-4883-93ca-edc4e0d80533")
 		(sheetname "/Interface Section/")
 		(sheetfile "FC-interfaces_sch.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
 			(at 5.5 -4.5 0)
 			(unlocked yes)
@@ -37181,7 +37180,7 @@
 		(path "/69fae52d-b493-4731-a879-b79fe020818b/ef8046cc-23a1-46c9-b4ea-e2af5009ae2c")
 		(sheetname "/Interface Section/")
 		(sheetfile "FC-interfaces_sch.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
 			(at 5.5 -4.5 0)
 			(unlocked yes)

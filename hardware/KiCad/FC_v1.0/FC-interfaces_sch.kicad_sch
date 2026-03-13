@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "FC Interface Section")
-		(date "2026-02-25")
-		(rev "v0.9")
+		(date "2026-03-13")
+		(rev "v0.9.5")
 		(company "Guilhem Andrieu")
 	)
 	(lib_symbols
