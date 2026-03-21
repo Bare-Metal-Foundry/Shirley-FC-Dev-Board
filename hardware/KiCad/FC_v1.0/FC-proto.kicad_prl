@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_82000001",
+    "visible_layers": "00000000_00000000_00000000_82000025",
     "zone_display_mode": 0
   },
   "git": {
@@ -103,7 +103,7 @@
       91,
       91,
       91,
-      91
+      10
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

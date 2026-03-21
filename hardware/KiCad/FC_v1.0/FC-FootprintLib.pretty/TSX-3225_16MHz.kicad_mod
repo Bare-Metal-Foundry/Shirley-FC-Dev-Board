@@ -201,7 +201,7 @@
 		(uuid "337d44a6-3282-4865-a49b-76427ef4bb2a")
 	)
 	(embedded_fonts no)
-	(model "//wsl.localhost/Ubuntu-22.04/home/andgui/Projects/Flight-Controller/hardware/cad-layout/TSX_3225_16M/TSX-3225_16.0000MF18X-AC3.step"
+	(model "/Users/guilhem_andrieu/Documents/Projects/FC-Shirley-Dev-Board/Shirley-FC-Dev-Board/hardware/cad-layout/TSX_3225_16M/TSX-3225_16.0000MF18X-AC3.step"
 		(offset
 			(xyz 0 0 0)
 		)
