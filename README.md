@@ -6,7 +6,7 @@ All configs are stored in YAML.
 
 # Shirley - Flight Controller Development Board
 
-![board_render](./exports/imgs/FC-Shirley-v0.7-topview.png)
+![board_render](./exports/imgs/Shirley-FC-pres-pic.png)
 
 Shirley is high-performance flight controller hardware platform built around the STM32H743 microcontroller, designed for custom firmware development and compatibility with existing flight stacks.
 
