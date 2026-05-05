@@ -5,12 +5,17 @@ This file present the different versions of the board that have been designed. I
 
 ## Current version information:
 
+![FC manufactured](imgs/FC-Shirley-manufactured.png)
+
 - name : ***Shirley***
 - descriptive name : **FC Dev Board**
 - version number: **0.9.5**
 - *[Schematic not exported]*
-- Manufactured : ***in production*** (started 15/03/26)
-- Tested : planned
+- Manufactured : produced 
+- Tested : ***In testing...***
+    - ✅ Elec checks
+    - ✅ STM32 checks
+    - 🔄 Sensors
 
 ## Past versions:
 - v0.9:
